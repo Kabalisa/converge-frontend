@@ -15,7 +15,7 @@ const customStyles = {
     bottom: 'auto',
     transform: 'translate(-50%, -50%)',
     border: '1px solid #CCCCCC',
-    borderRadius: '4px',
+    borderRadius: '15px',
     outline: 'none',
     boxShadow: '0 2px 40px 10px rgba(185, 180, 180, 0.2)',
     backgroundColor: '#ffffff',

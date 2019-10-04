@@ -1,27 +1,27 @@
 .modal {
   padding: 4% 3.5%;
-    
+
   h2 {
     margin: 0;
     margin-bottom: 5%;
   }
 
   ::placeholder {
-    color: rgba(50,60,71,0.4);
+    color: rgba(50, 60, 71, 0.4);
   }
 
   input {
     margin-top: 0.6em;
     width: 95%;
-    color: rgba(50,60,71,0.4);
+    color: rgba(50, 60, 71, 0.4);
   }
 
   /* Remove Mozilla styles when input data is invalid*/
-  input:invalid{
+  input:invalid {
     box-shadow: none;
   }
 
-  @media screen and (min-width:1072px) {
+  @media screen and (min-width: 1072px) {
     input {
       width: 96%;
     }
@@ -32,7 +32,7 @@
       width: 93%;
     }
   }
-    
+
   @media screen and (max-width: 678px) {
     input {
       width: 91%;

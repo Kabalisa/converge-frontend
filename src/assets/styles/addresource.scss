@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 .add-resource-modal {
   overflow: hidden !important;
@@ -21,7 +21,7 @@
   }
 
   .loading-text {
-    padding-top:0.2rem;
+    padding-top: 0.2rem;
   }
 
   .loading-div {
@@ -37,7 +37,7 @@
     margin-top: 10px;
   }
 
-  input[type='text'] {
+  input[type="text"] {
     margin-top: 10px;
   }
 
@@ -48,7 +48,7 @@
     }
   }
 
-  input[type='number'] {
+  input[type="number"] {
     margin-top: 10px;
     border-radius: 4px 0 0 4px;
   }
@@ -90,18 +90,19 @@
     }
 
     .form-action-buttons {
-      button:first-child, button:first-child:hover{
-        background-color: map-get($color-white,000);
+      button:first-child,
+      button:first-child:hover {
+        background-color: map-get($color-white, 000);
         border: 1px solid $color-primary;
         color: $color-primary;
       }
 
-      button:nth-child(2) , button:nth-child(2):hover {
+      button:nth-child(2),
+      button:nth-child(2):hover {
         background-color: map-get($color-blue, 400) !important;
         border: 1px solid map-get($color-blue, 400);
         color: map-get($color-white, 000);
       }
-
     }
 
     .loading-btn-div {
@@ -147,7 +148,7 @@
   @media screen and (max-width: 639px) {
     width: 78%;
 
-    input[type='text'] {
+    input[type="text"] {
       min-width: 29.3em;
     }
   }
@@ -170,4 +171,3 @@
     width: 100% !important;
   }
 }
-

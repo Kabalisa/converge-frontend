@@ -11,7 +11,7 @@ exports[`ProfileMenu Profile menu renders correctly 1`] = `
       "entries": Array [
         Object {
           "hash": "",
-          "key": "gsi837",
+          "key": "q8x6b9",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -25,7 +25,7 @@ exports[`ProfileMenu Profile menu renders correctly 1`] = `
       "listen": [Function],
       "location": Object {
         "hash": "",
-        "key": "gsi837",
+        "key": "q8x6b9",
         "pathname": "/",
         "search": "",
         "state": undefined,

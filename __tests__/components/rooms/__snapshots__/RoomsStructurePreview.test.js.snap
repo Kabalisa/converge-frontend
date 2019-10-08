@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup component should render properly 1`] = `
+<div
+  className="rooms-preview"
+>
+  <div
+    className="initial-preview-title"
+  >
+    Here is the preview of your setup
+  </div>
+  <img
+    alt="initial preview when no data"
+    className="initial-preview-image"
+    src="test-file-stub"
+  />
+  <div
+    className="initial-preview-bottom-text"
+  >
+    Please fill-in details on the left to continue
+  </div>
+</div>
+`;

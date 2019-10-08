@@ -77,6 +77,7 @@ exports[`Query Most Booked Rooms Component should load progressBar 1`] = `
       ]
     }
     fetching={false}
+    pollIcon="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2Fpoll_red.svg?alt=media&token=f162d826-43a7-4bcb-aac8-0077ea6a4885"
     tip="The highest number of times meeting rooms were booked in a set time period"
   >
     <div

@@ -1,7 +1,6 @@
 const dotenv = require('dotenv');
 const developmentConfigs = require('./config/webpack.dev');
 const productionConfigs = require('./config/webpack.prod');
-
 // load configs in the .env file
 dotenv.config();
 

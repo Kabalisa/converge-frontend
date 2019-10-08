@@ -32,7 +32,7 @@ exports[`Login component should redirect to another page when a token is present
       CONVERGE
     </h1>
   </header>
-  <Component>
+  <_default>
     <div
       id="converge-intro"
     >
@@ -40,7 +40,7 @@ exports[`Login component should redirect to another page when a token is present
       <br />
       that your meeting room app aspires to be.
     </div>
-  </Component>
+  </_default>
   <LoginButton>
     <a
       href="undefined=undefined"
@@ -87,7 +87,7 @@ exports[`Login component should redirect to another page when a user successfull
       CONVERGE
     </h1>
   </header>
-  <Component>
+  <_default>
     <div
       id="converge-intro"
     >
@@ -95,7 +95,7 @@ exports[`Login component should redirect to another page when a user successfull
       <br />
       that your meeting room app aspires to be.
     </div>
-  </Component>
+  </_default>
   <LoginButton>
     <a
       href="undefined=undefined"

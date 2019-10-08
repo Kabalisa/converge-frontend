@@ -11,7 +11,11 @@ exports[`ProfileMenu Profile menu renders correctly 1`] = `
       "entries": Array [
         Object {
           "hash": "",
+<<<<<<< HEAD
           "key": "oxb9ut",
+=======
+          "key": "b52lhj",
+>>>>>>> 6b85c9d28e79ad62699b5e22befe93513263d522
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -25,7 +29,11 @@ exports[`ProfileMenu Profile menu renders correctly 1`] = `
       "listen": [Function],
       "location": Object {
         "hash": "",
+<<<<<<< HEAD
         "key": "oxb9ut",
+=======
+        "key": "b52lhj",
+>>>>>>> 6b85c9d28e79ad62699b5e22befe93513263d522
         "pathname": "/",
         "search": "",
         "state": undefined,

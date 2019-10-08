@@ -118,6 +118,6 @@ describe('AnalyticsNav Component', () => {
     });
     wrapper.find('Button').at(1).find('button').find('.activityIconBtn')
       .simulate('click');
-    expect(wrapper.find(AnalyticsActivity).length).toEqual(0);
+    expect(wrapper.find(AnalyticsActivity).length).toEqual(1);
   });
 });

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup component should render properly 1`] = `
+<div
+  className="layout-container"
+>
+  <div
+    className="layout-item-first"
+  >
+    <h3
+      className="left-component"
+    >
+      left component
+    </h3>
+  </div>
+  <div
+    className="layout-item-second"
+  >
+    <h3
+      className="right-component"
+    >
+      Right-component
+    </h3>
+  </div>
+</div>
+`;

@@ -3,7 +3,6 @@ const path = require('path');
 const webpack = require('webpack');
 const dotenv = require('dotenv');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 /**
  * Parses environment variables into a format acceptable by the webpack DefinePlugin
  * @param {object} configs Object literal containing configuration variables to

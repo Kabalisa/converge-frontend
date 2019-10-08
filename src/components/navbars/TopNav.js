@@ -2,12 +2,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import ROUTES from '../../utils/routes';
 import '../../assets/styles/topnav.scss';
 import { analyticsIcon, feedbackIcon, settingsIcon } from '../../utils/images/images';
+
+require('@babel/polyfill');
 
 const menuItems = [
   {

@@ -1,0 +1,21 @@
+.layout-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background: #FFFFFF !important;
+
+    .layout-item-first {
+        background: #F9F9F9;
+        height: 100vh;
+        border: 1px solid rgba(240,241,241,0.76);
+        display:grid;
+        place-content: center;
+    }
+
+    .layout-item-second {
+        height: 100vh;
+        border-top: 1px solid rgba(240,241,241,0.76);
+        border-bottom: 1px solid rgba(240,241,241,0.76);
+        display: grid;
+        place-content: center;
+    }
+}

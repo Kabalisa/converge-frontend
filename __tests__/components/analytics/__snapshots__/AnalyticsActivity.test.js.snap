@@ -88,7 +88,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
     <div>
       <div
         className="activity"
-        key="128586d5-f64a-42f5-bd0f-f3c1600831c4"
+        key="a0d4f2a3-4615-483e-8c06-74034d18f4b4"
       >
         <div
           className="activity-day"
@@ -97,7 +97,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="968a3013-cce2-4d06-bd37-43300f62ccb5"
+          key="9f1714d7-523c-46df-b92a-9c3a63514aa2"
         >
           <div
             className="title"
@@ -119,7 +119,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                04:15:00
+                05:15:00
                  
                 EAT
               </bdi>
@@ -129,7 +129,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                04:45:00
+                05:45:00
                  
                 EAT
               </bdi>
@@ -150,7 +150,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="2bb05355-48d0-40c9-b459-ccc5f180b153"
+        key="d185ecd6-1b68-4a2f-96c8-2d422e0209b3"
       >
         <div
           className="activity-day"
@@ -159,7 +159,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="3d2dd476-d0ce-42a0-9f45-feffbd21ecf9"
+          key="843af0fa-2b6c-4136-b90c-e423240dc026"
         >
           <div
             className="title"
@@ -181,7 +181,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                12:00:00
+                01:00:00
                  
                 EAT
               </bdi>
@@ -191,7 +191,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                01:00:00
+                02:00:00
                  
                 EAT
               </bdi>
@@ -212,7 +212,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="fc06cc50-3b67-46ae-835d-811384b9316e"
+        key="1525cdb3-1e41-4dcf-8b69-a67ed04b8c60"
       >
         <div
           className="activity-day"
@@ -221,7 +221,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="dfe7b00e-d7ca-4fb9-a5e2-64df959869a1"
+          key="f82bf0ed-158c-4fdb-a8ff-52bf0fba3097"
         >
           <div
             className="title"
@@ -243,7 +243,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                12:00:00
+                01:00:00
                  
                 EAT
               </bdi>
@@ -253,7 +253,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                01:00:00
+                02:00:00
                  
                 EAT
               </bdi>
@@ -274,7 +274,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="81e70d00-e790-436c-a4f5-5c6caee14108"
+        key="80b789bc-68a9-44d7-ab0f-6d9b8a66de9a"
       >
         <div
           className="activity-day"
@@ -283,7 +283,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="b1a50976-957d-44fd-95eb-9c6bbecb21bd"
+          key="b14ebc34-86c3-4ec0-820b-991bbcdd3abb"
         >
           <div
             className="title"
@@ -305,7 +305,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                03:30:00
+                04:30:00
                  
                 EAT
               </bdi>
@@ -315,7 +315,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                04:00:00
+                05:00:00
                  
                 EAT
               </bdi>
@@ -336,7 +336,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="8ba70232-be1a-4b17-b05b-c937e0ea7cc5"
+        key="66e3841d-f346-402c-9f3a-5d5cafad118b"
       >
         <div
           className="activity-day"
@@ -345,7 +345,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="01177c35-661f-467a-b516-7450ac55a05f"
+          key="c75163ce-ed65-4bf3-99b7-1ffaa1b9f00e"
         >
           <div
             className="title"
@@ -358,564 +358,6 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             className="room"
           >
             Cotonous
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                02:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                03:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              59
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="82b53d8e-fa59-468d-9d50-62973e1ce110"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="b8bc197e-59b2-475d-bd87-ed21e5519cdf"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Interview: Oluwatoyin Williams-Edem - Senior Manager, HR Business Partner
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Safari-me
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                11:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                12:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="b6607e33-95bb-4f97-b44f-deed25a65a81"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="95534b79-edfb-48d4-ba74-c826e1761bc0"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Apprenticeship Sync
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Cotonous
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                02:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                03:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              59
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="3e87aba4-f424-4ee7-bbf2-047f67fca22c"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="d7f62f6d-b04a-45b1-9d34-bcf182055553"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Team meetings
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Safari-me
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                02:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              2
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="192baba4-472f-423e-8439-be91c03814f0"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="e16feb59-58ad-4f51-a569-44ec425c7ee9"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Extended org sync
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Cognito
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                01:40:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              12
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="1d0278e3-a323-4c9e-bdbc-97a83d209606"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="d78a8a87-3956-4069-bde5-1a9859553a81"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Ann &lt;&gt; Sam
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Oculus
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                12:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              5
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="bc32857a-4e68-4841-980a-0f5d5be64e62"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="63be7ca7-555f-490d-8a6a-97e0acebdb88"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Interview: Ayodele Odufuye - Senior Manager, HR Business Partner
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Safari-me
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                12:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="12d717de-5c62-480f-a6ec-d95ec0ee29a6"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="615e77f1-cb81-4ba8-bfa7-a6986643744f"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Member Education
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Oculus
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                02:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                03:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              2
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="f27e63b3-ac46-4438-8dae-e7800117ac47"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="4aec8cb6-8835-4c05-b8e6-33c3839495e6"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Engineer Self Check-in 
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            test-5
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                12:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              6
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="09f5e260-049e-487a-8e21-aa79a216f3ba"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="19ec5d26-1180-47c2-8915-a58bd8d6c3e1"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Oladimeji + Tejumade _ Software Engineer (Values Alignment Call)
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Ikogosi
           </div>
           <div
             className="status"
@@ -949,14 +391,14 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
               src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
             />
             <span>
-              3
+              59
             </span>
           </div>
         </div>
       </div>
       <div
         className="activity"
-        key="f9a53d23-2ffe-4689-bc3d-fcb10ecd1f6f"
+        key="c0251a15-31a2-4cc1-aac9-d47f8f32fbcd"
       >
         <div
           className="activity-day"
@@ -965,19 +407,19 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="256634f9-3a44-4bdc-b04e-7cd327387994"
+          key="59dd697f-886f-4b5a-9170-2dc7a49231b6"
         >
           <div
             className="title"
           >
             <div>
-              Chux &lt;&gt; Godwin - Values Alignment Interview
+              Interview: Oluwatoyin Williams-Edem - Senior Manager, HR Business Partner
             </div>
           </div>
           <div
             className="room"
           >
-            Ikogosi
+            Safari-me
           </div>
           <div
             className="status"
@@ -987,7 +429,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                12:30:00
+                12:00:00
                  
                 EAT
               </bdi>
@@ -996,256 +438,70 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
               className="ended"
             >
               Ended 
-              <bdi>
-                01:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="a2440618-b175-4869-8575-6b4b107b1e4e"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="ccc71aae-da05-4292-94c4-331ff8539523"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Brad &lt;&gt; Tope 1:1
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Ikogosi
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                03:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                03:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="ee84accc-f5b7-417d-9892-e1f7afdd264d"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="a291081e-b401-4702-8ba0-572b21dd3e4e"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Lara&lt;&gt;Nneka
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Ikogosi
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                05:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                05:30:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              4
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="06ef1228-9e56-46b9-adad-13fbae9a1239"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="9e2b3405-7c8a-47c7-8136-f1ea3dd2a836"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Ghana General Manager Interview: Christiane Koenig
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Empire State
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                11:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                11:50:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              4
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="2c7e1a28-1ca8-4089-8bf0-d29007a587a5"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="06dfa26b-0ca9-4ebb-af80-11cb3b596817"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Extended org sync
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Cognito
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
               <bdi>
                 01:00:00
                  
                 EAT
               </bdi>
             </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              3
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="45e55e4c-c2c3-41e9-a4d8-2eaa8d968dc0"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="9fcac0a4-a50e-42f0-95fc-242d1c6c8436"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Apprenticeship Sync
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Cotonous
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                03:30:00
+                 
+                EAT
+              </bdi>
+            </div>
             <div
               className="ended"
             >
               Ended 
               <bdi>
-                01:40:00
+                04:30:00
                  
                 EAT
               </bdi>
@@ -1259,14 +515,14 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
               src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
             />
             <span>
-              12
+              59
             </span>
           </div>
         </div>
       </div>
       <div
         className="activity"
-        key="1daef4cc-7eca-4161-9edb-65db5a2a827d"
+        key="715cf242-9374-4406-acc7-c56bf93d6eb7"
       >
         <div
           className="activity-day"
@@ -1275,19 +531,19 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="ee6245e3-300b-463a-a9ab-2d1cede2d6ad"
+          key="c1293ccc-a503-48fb-8283-8049926d7dc2"
         >
           <div
             className="title"
           >
             <div>
-              Member Education
+              Team meetings
             </div>
           </div>
           <div
             className="room"
           >
-            Oculus
+            Safari-me
           </div>
           <div
             className="status"
@@ -1328,7 +584,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="1a75767a-158b-4341-ae50-f9d288b10e00"
+        key="42e1134a-9f5e-4817-9aae-9ad3bf75fd6b"
       >
         <div
           className="activity-day"
@@ -1337,7 +593,69 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="40343418-ac88-4eec-a60d-6db9ebdc06d7"
+          key="79465067-2988-41c6-9dea-b1861ed13ef7"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Extended org sync
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Cognito
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:40:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              12
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="1428169f-842d-406e-ac5f-4e58f1dc702a"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="b8e08587-f7b5-4378-9e30-fbe622fd3cfd"
         >
           <div
             className="title"
@@ -1359,7 +677,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                12:00:00
+                01:00:00
                  
                 EAT
               </bdi>
@@ -1369,7 +687,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                01:00:00
+                02:00:00
                  
                 EAT
               </bdi>
@@ -1390,7 +708,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="90e6782a-51d8-4bf2-bbd3-94de4934c057"
+        key="9be41ca8-b094-4980-a8db-df9f529a7ffb"
       >
         <div
           className="activity-day"
@@ -1399,81 +717,19 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="2c891632-da40-4941-a499-e81bfc58eeb2"
+          key="1395c26e-1102-49a9-986d-beae1d05437f"
         >
           <div
             className="title"
           >
             <div>
-              Onsite Interview: Douglas + Team | Recruiting Operations Associate
+              Interview: Ayodele Odufuye - Senior Manager, HR Business Partner
             </div>
           </div>
           <div
             className="room"
           >
-            Algiers
-          </div>
-          <div
-            className="status"
-          >
-            <div
-              className="started"
-            >
-              Started 
-              <bdi>
-                12:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-            <div
-              className="ended"
-            >
-              Ended 
-              <bdi>
-                01:00:00
-                 
-                EAT
-              </bdi>
-            </div>
-          </div>
-          <div
-            className="participants"
-          >
-            <img
-              alt=""
-              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
-            />
-            <span>
-              5
-            </span>
-          </div>
-        </div>
-      </div>
-      <div
-        className="activity"
-        key="a953a650-c299-4d41-81b7-178576e675b9"
-      >
-        <div
-          className="activity-day"
-        >
-          Thu May 30, 2019
-        </div>
-        <div
-          className="activity-info-row"
-          key="46c2e580-078b-4fc8-a7f0-5e6d7c4f4e41"
-        >
-          <div
-            className="title"
-          >
-            <div>
-              Values Call Alignment: Caroline&lt;&lt;&gt;&gt; Manasseh
-            </div>
-          </div>
-          <div
-            className="room"
-          >
-            Algiers
+            Safari-me
           </div>
           <div
             className="status"
@@ -1514,7 +770,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
       </div>
       <div
         className="activity"
-        key="c983879d-62ae-4e78-8e04-6bcf4f407a45"
+        key="65126ee1-92cd-4ac3-a244-196050b0a908"
       >
         <div
           className="activity-day"
@@ -1523,7 +779,751 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
         </div>
         <div
           className="activity-info-row"
-          key="afbd087f-293e-4aa0-a7be-50aa071bef8d"
+          key="844e431a-fa55-4b5e-aca2-3b8b147af8a1"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Member Education
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Oculus
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                03:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                04:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="0b5a22d8-3e3b-4d03-b6a0-c543511cda8d"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="942cd0d1-5f05-456b-9c44-2f764423613a"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Engineer Self Check-in 
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            test-5
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                01:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              6
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="9d3ed89a-b868-4788-8ebb-fc312e75feb8"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="27f28123-908d-43d4-8d1e-564a362d3453"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Oladimeji + Tejumade _ Software Engineer (Values Alignment Call)
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Ikogosi
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                04:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                05:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              3
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="46b2ee60-69c1-4182-99b3-a0db0cb14704"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="10325a54-59cd-450d-95ca-688047a540f0"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Chux &lt;&gt; Godwin - Values Alignment Interview
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Ikogosi
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                01:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              3
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="c6750257-c121-463a-bd8a-3c3a730f8da8"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="0736e306-8b10-498a-96f0-ff12ae2e5bbd"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Brad &lt;&gt; Tope 1:1
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Ikogosi
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                04:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                04:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              3
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="8b826293-6a9e-47b5-be50-03333b57fba4"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="dd08c797-fff0-436c-aec8-99b4d0524ab1"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Lara&lt;&gt;Nneka
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Ikogosi
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                06:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                06:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              4
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="9ea96a45-1e1d-4f63-a9df-ae11a8a05a09"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="0f5a81e3-39a9-48e3-942a-20c2b3ae87fe"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Ghana General Manager Interview: Christiane Koenig
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Empire State
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                12:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                12:50:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              4
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="f414de1c-b91f-437a-a00b-35455b2048d4"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="14697b84-22e1-4565-aaf7-e4277db2dfdf"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Extended org sync
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Cognito
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:40:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              12
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="9522ee9c-e8fa-437c-acdd-4cb85e12abff"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="69181e65-df76-4bc0-af86-501034c303a7"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Member Education
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Oculus
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                03:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                04:30:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="36ae2661-492f-4b18-834e-ebaa8d8b217e"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="dd78041e-124b-4dab-b54f-4eb6d29d1e33"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Ann &lt;&gt; Sam
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Oculus
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                01:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              5
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="373bb642-0160-4b1d-90ca-ff5c948bfbc7"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="66863dc9-eed3-41ec-9a85-ccfdfdb10a5b"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Onsite Interview: Douglas + Team | Recruiting Operations Associate
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Algiers
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                01:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              5
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="a13104cc-90aa-4929-bedd-5472ea05d27a"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="4e904186-49bf-49f8-9741-6997691cfda3"
+        >
+          <div
+            className="title"
+          >
+            <div>
+              Values Call Alignment: Caroline&lt;&lt;&gt;&gt; Manasseh
+            </div>
+          </div>
+          <div
+            className="room"
+          >
+            Algiers
+          </div>
+          <div
+            className="status"
+          >
+            <div
+              className="started"
+            >
+              Started 
+              <bdi>
+                02:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+            <div
+              className="ended"
+            >
+              Ended 
+              <bdi>
+                03:00:00
+                 
+                EAT
+              </bdi>
+            </div>
+          </div>
+          <div
+            className="participants"
+          >
+            <img
+              alt=""
+              src="https://firebasestorage.googleapis.com/v0/b/learning-map-app.appspot.com/o/MrmFrontImages%2FGroup.svg?alt=media&token=7f06b0bb-46bb-456a-ac35-9eeab8a16362"
+            />
+            <span>
+              3
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="activity"
+        key="5bf8da9e-0f39-4bc2-a501-1980fcfe6cd0"
+      >
+        <div
+          className="activity-day"
+        >
+          Thu May 30, 2019
+        </div>
+        <div
+          className="activity-info-row"
+          key="ed50f274-140b-4756-949d-a5a5b05e9c07"
         >
           <div
             className="title"
@@ -1545,7 +1545,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Started 
               <bdi>
-                11:50:00
+                12:50:00
                  
                 EAT
               </bdi>
@@ -1555,7 +1555,7 @@ exports[`AnalyticsActivity component should render daily room events 1`] = `
             >
               Ended 
               <bdi>
-                04:25:00
+                05:25:00
                  
                 EAT
               </bdi>

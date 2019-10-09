@@ -6,14 +6,17 @@ import SetupLevel from './SetupLevel';
 const SetupInfoPage = ({ handleClick }) => (
   <div className="setup_container">
     <div className="message">
-      <h1 className="welcome__message "> Welcome to Room Setup </h1>
+      <h1 className="setup"> Setup</h1>
+      <p className="configure-andela-cen">Configure Andela centres</p>
     </div>
-    <SetupLevel />
-    <Button
-      title="Continue"
-      classProp="setup_continue_button"
-      handleClick={handleClick('BuildingLevel')}
-    />
+    <div className="setup_container_center">
+      <SetupLevel />
+      <Button
+        title="Get Started"
+        classProp="setup_continue_button"
+        handleClick={handleClick('BuildingLevel')}
+      />
+    </div>
   </div>
 );
 

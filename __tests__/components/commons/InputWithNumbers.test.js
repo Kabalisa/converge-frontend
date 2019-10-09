@@ -9,9 +9,8 @@ describe.only('Number Input Component', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  const initialInputValue = wrapper.instance().state.inputValue;
-
   it('Should update state on textChange', () => {
+    const initialInputValue = wrapper.instance().state.inputValue;
     wrapper.props().children.props.onChange();
     expect(initialInputValue).not.toEqual(wrapper.instance().state.inputValue);
   });

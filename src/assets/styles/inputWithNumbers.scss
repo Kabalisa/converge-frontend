@@ -1,8 +1,11 @@
+@import './variables.scss';
+
 .number-input-container {
+    width: 334px;
     .number-input .ui.button {
-        background: white;
-        color: #919EAB;
-        border: 1px solid #DFE3E8;
+        background: map-get($color-white, 000);
+        color: map-get($color-gray, 500);
+        border: 1px solid map-get($color-gray, 400);
         border-left: 0px;
     }
 
@@ -21,7 +24,7 @@
     .number-input .ui.input {
         width: 300px;
         height: 44px;
-        border: 0px solid #DFE3E8;
+        border: 0px solid map-get($color-gray, 400);
         border-right: none;
         border-radius: 6px;
     }

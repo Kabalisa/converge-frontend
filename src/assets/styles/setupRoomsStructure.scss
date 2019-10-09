@@ -1,0 +1,33 @@
+@import './commonTextStyles';
+@import './variables.scss';
+
+.setup-rooms-structure-container {
+    .setup-rooms-structure-header {
+        @include bigTextStyle;
+        color: map-get($color-gray, 0);
+    }
+
+    .setup-rooms-structure-subheader {
+        @include normalTextStyle;
+        color: map-get($color-gray, 50);
+        margin-bottom: 35px;
+    }
+
+    .location-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+
+    .buildings-names-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+
+    .buildings-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+}

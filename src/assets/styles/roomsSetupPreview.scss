@@ -1,10 +1,11 @@
+@import './commonTextStyles';
+@import './variables.scss';
+
 .rooms-preview {
     .initial-preview-title .initial-preview-bottom-text {
-        color: #333A3F;
-        font-size: 14px;
-        line-height: 17px;
+        @include normalTextStyle;
+        color: map-get($color-gray, 0);
         margin-left: 20px;
-        font-family: 'Lato';
     }
 
     .initial-preview-image {
@@ -12,6 +13,6 @@
     }
 
     .initial-preview-bottom-text {
-        color: rgba(51,58,63,0.7);
+        color: map-get($color-gray, 50);
     }
 }

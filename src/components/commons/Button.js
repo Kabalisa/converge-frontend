@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 // styles
 import '../../assets/styles/button.scss';
+import '../../assets/styles/officeStructure.scss';
 
 /**
  * It renders a button
@@ -18,7 +19,7 @@ const Button = ({
   isDisabled,
   type,
 }) => {
-  const classname = `${classProp} ${type === 2 ? 'btn-secondary' : 'btn-primary'}`;
+  const classname = `${classProp} ${type === 2 ? 'btn-secondary' : type === 3 ? 'onboarding-next-button' : 'btn-primary'}`;
   return (
     <button
       className={classname}

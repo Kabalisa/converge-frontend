@@ -25,6 +25,7 @@ $box-shadow-activity: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 $box-shadow-setup: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
 
 $color-primary: #3359db;
+$color-normal: #212B36;
 $color-danger: #ff5359;
 $color-success: #72d11f;
 $color-purple: #551a8b;
@@ -57,6 +58,14 @@ $color-amber: (
   100: #ffe9c6,
   200: #fac56f,
   300: #ffaf30
+);
+
+$color-gray: (
+  0: #333A3F,
+  50: rgba(51,58,63,0.7),
+  300: rgba(240,241,241,0.76),
+  400: #DFE3E8,
+  500: #919EAB
 );
 
 $color-blue: (

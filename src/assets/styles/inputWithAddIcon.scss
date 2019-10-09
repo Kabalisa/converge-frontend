@@ -1,12 +1,14 @@
+@import './commonTextStyles';
+@import './variables.scss';
+
 .InputWithAddIcon-container{
     margin: 10px 0;
     .InputWithAddIcon-style input {
-        color: #919EAB;
-        font-family: Lato;
-        font-size: 14px;
+        color: map-get($color-gray, 500);
+        @include normalTextStyle;
         line-height: 20px;
         width: 334px;
-        height: 42px;
+        height: 44px;
     }
 
     .ui.icon.input>i.icon {

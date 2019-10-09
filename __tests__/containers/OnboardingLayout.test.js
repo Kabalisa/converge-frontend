@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import OnboardingLayout from '../../src/containers/OnboardingLayout';
 
-describe.only('Setup component', () => {
+describe('Setup component', () => {
   const componentLeft = (<h3 className="left-component">left component</h3>);
   const componentRight = (<h3 className="right-component">Right-component</h3>);
 

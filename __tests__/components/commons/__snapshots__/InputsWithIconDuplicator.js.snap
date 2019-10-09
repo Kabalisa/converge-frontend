@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Setup component should render properly 1`] = `
+exports[`Input With Plus Icon component should render properly 1`] = `
 <Fragment>
   <SingleInputWithAddIcon
     inputPlaceholder="Building"

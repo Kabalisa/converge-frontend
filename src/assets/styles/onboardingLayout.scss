@@ -1,20 +1,22 @@
+@import './variables.scss';
+
 .layout-container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    background: #FFFFFF !important;
+    background: map-get($color-white, 000) !important;
 
     .layout-item-first {
-        background: #F9F9F9;
+        background: map-get($color-white, 300);
         height: 100vh;
-        border: 1px solid rgba(240,241,241,0.76);
+        border: 1px solid map-get($color-gray, 300);
         display:grid;
         place-content: center;
     }
 
     .layout-item-second {
         height: 100vh;
-        border-top: 1px solid rgba(240,241,241,0.76);
-        border-bottom: 1px solid rgba(240,241,241,0.76);
+        border-top: 1px solid map-get($color-gray, 300);
+        border-bottom: 1px solid map-get($color-gray, 300);
         display: grid;
         place-content: center;
     }

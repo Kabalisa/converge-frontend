@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import InputsWithAddIcons from '../../../src/components/commons/InputAddIcon/index';
 
-describe.only('Setup component', () => {
+describe.only('Input With Plus Icon component', () => {
   const wrapper = shallow(<InputsWithAddIcons />);
 
   it('should render properly', () => {

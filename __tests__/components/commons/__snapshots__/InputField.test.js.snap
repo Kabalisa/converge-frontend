@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField Component should render properly 1`] = `
+<div
+  className="input-field-container"
+>
+  <Input
+    className="input-field-style"
+    onChange={[Function]}
+    placeholder="eg Epic Campus"
+    type="text"
+    value=""
+  />
+</div>
+`;

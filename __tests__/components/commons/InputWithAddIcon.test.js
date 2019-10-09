@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import SingleInputWithAddIcon from '../../../src/components/commons/InputAddIcon/InputWithPlusIcon';
 
-describe.only('Setup component', () => {
+describe.only('Input with plus icon component', () => {
   const props = {
     inputPlaceholder: 'Building',
     pressed: jest.fn(),

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup room structure component should render properly 1`] = `
+<div
+  className="setup-rooms-structure-container"
+>
+  <h1
+    className="setup-rooms-structure-header"
+  >
+    Awesome, You're In 
+    <span
+      aria-label="thums-up"
+      role="img"
+    >
+      👍🏾
+    </span>
+  </h1>
+  <p
+    className="setup-rooms-structure-subheader"
+  >
+    Let's setup the meeting rooms within your location
+  </p>
+  <p
+    className="location-input-label"
+  >
+    What's the name of your Andela Center
+  </p>
+  <InputField
+    placeholder="eg Epic Campus"
+  />
+  <p
+    className="buildings-input-label"
+  >
+    How many buildings are in your center?
+  </p>
+  <InputWithNumbers />
+  <p
+    className="buildings-names-input-label"
+  >
+    Name your buildings
+  </p>
+  <InputsWithAddIcons />
+  <Button
+    classProp={null}
+    handleClick={null}
+    isDisabled={false}
+    title="Next"
+    type={3}
+  />
+</div>
+`;

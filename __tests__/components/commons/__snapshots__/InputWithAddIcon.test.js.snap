@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup component should render properly 1`] = `
+<div
+  className="InputWithAddIcon-container"
+>
+  <Input
+    className="InputWithAddIcon-style"
+    icon={
+      <Icon
+        as="i"
+        className="plus-icon"
+        color="green"
+        link={true}
+        name="plus circle"
+        onClick={[Function]}
+        size="large"
+      />
+    }
+    placeholder="Building"
+    size="large"
+    type="text"
+  />
+</div>
+`;

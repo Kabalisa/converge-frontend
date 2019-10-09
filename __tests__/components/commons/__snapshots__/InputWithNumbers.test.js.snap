@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Number Input Component should render properly 1`] = `
+<div
+  className="number-input-container"
+>
+  <NumberInput
+    allowEmptyValue={false}
+    buttonPlacement="right"
+    className="number-input"
+    doubleClickStepAmount={0}
+    maxLength={10}
+    maxValue={9999999999}
+    minValue={0}
+    onChange={[Function]}
+    placeholder="Enter a value"
+    precision={2}
+    showError={false}
+    showTooltips={true}
+    size="small"
+    stepAmount={1}
+    value="1"
+    valueType="integer"
+  />
+</div>
+`;

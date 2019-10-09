@@ -4,7 +4,7 @@ import { ApolloConsumer } from 'react-apollo';
 import PropTypes from 'prop-types';
 import jwtDecode from 'jwt-decode';
 import ROUTES from './utils/routes';
-import { Analytics, Preference, RoomFeedbackPage } from './containers';
+import { Preference, RoomFeedbackPage } from './containers';
 import { LoginPage } from './components';
 import Constants from './utils/Constants';
 import '../src/assets/styles/toastr.scss';

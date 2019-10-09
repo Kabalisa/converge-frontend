@@ -1,0 +1,15 @@
+.InputWithAddIcon-container{
+    margin: 10px 0;
+    .InputWithAddIcon-style input {
+        color: #919EAB;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 20px;
+        width: 334px;
+        height: 42px;
+    }
+
+    .ui.icon.input>i.icon {
+        width: 1.7em;
+    }
+}

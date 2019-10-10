@@ -111,7 +111,7 @@ Input.propTypes = {
 };
 
 Input.defaultProps = {
-  value: 'text',
+  value: '',
   type: 'text',
   onFocus: (() => {}),
   onBlur: (() => {}),

@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from '../components/commons/Button';
 import '../assets/styles/onboardingLayout.scss';
 
 const OnboardingLayout = ({ layoutLeft, layoutRight }) => (
   <div className="layout-container">
     <div className="layout-item-first">
       {layoutLeft}
+      <Button title="Next" type={3} />
     </div>
     <div className="layout-item-second">
       {layoutRight}

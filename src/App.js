@@ -4,7 +4,7 @@ import { ApolloConsumer } from 'react-apollo';
 import PropTypes from 'prop-types';
 import jwtDecode from 'jwt-decode';
 import ROUTES from './utils/routes';
-import { Analytics, Preference, RoomFeedbackPage } from './containers';
+import { Preference, RoomFeedbackPage } from './containers';
 import { LoginPage } from './components';
 import Constants from './utils/Constants';
 import '../src/assets/styles/toastr.scss';
@@ -16,6 +16,7 @@ import { getUserDetails, getAllLocations, getUserLocation } from './components/h
 import GetNewUsersLocation from './containers/GetNewUsersLocation';
 import { removeItemFromLocalStorage } from './utils/Utilities';
 import RoomsSetup from './components/onboarding/meetingRoomsSetup';
+import Rooms from './components/onboarding/addRooms';
 
 // destruscture constants to be used
 const {
@@ -88,14 +89,11 @@ class App extends Component {
 
   render() {
     const {
-      loggedIn, userLocation, userRole, defaultState,
-    } = this.state;
+      loggedIn, userLocation, userRole, defaultState } = this.state;
     const { location } = this.props;
-
     if (defaultState && userLocation) {
       return <GetNewUsersLocation userLocation={this.state.userLocation} />;
     }
-
     if (!loggedIn && location.pathname !== ROUTES.home) {
       // redirect to landing page if user isn't logged in
       return (
@@ -107,7 +105,6 @@ class App extends Component {
         />
       );
     }
-
     return (
       <ApolloConsumer>
         {
@@ -115,7 +112,6 @@ class App extends Component {
             if (loggedIn && !userLocation) {
             return <GetNewUsersLocation userLocation={userLocation} />;
           }
-
             try {
               getUserLocation();
             } catch (error) {
@@ -124,14 +120,14 @@ class App extends Component {
                   data: { userLocation, userRole },
                 });
               }
-            }
-
-
+}
             return (
               <ErrorBoundary isAuthError>
                 <Switch>
                   <Route path={ROUTES.home} exact component={LoginPage} />
+                  <Route exact path={ROUTES.analytics} component={Rooms} />
                   <Route exact path={ROUTES.analytics} component={RoomsSetup} />
+                  <Route exact path={ROUTES.analytics} component={Rooms} />
                   <Route exact path={ROUTES.roomfeedback} component={RoomFeedbackPage} />
                   <Route exact path={ROUTES.preference} component={Preference} />
                   <Route exact path={ROUTES.setup} component={Setup} />

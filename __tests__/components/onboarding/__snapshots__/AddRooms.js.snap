@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddRooms component should render with no errors 1`] = `
+<Fragment>
+  <div>
+    <div
+      className="addroom-page-title"
+    >
+      <div
+        className="back_icon"
+      >
+        <img
+          alt="back icon"
+          src="test-file-stub"
+        />
+      </div>
+      <div>
+        <span
+          className="addroom-title"
+        >
+          Add Rooms
+        </span>
+      </div>
+    </div>
+    <div>
+      <p>
+        Set the structure of your Center
+      </p>
+      <BuildingCardFloor
+        Floors={
+          Array [
+            "Floor 1",
+            "Floor 2",
+          ]
+        }
+        activeFloor="Floor 1"
+        block="Block A"
+      />
+    </div>
+        
+  </div>
+  <div>
+    <p>
+      How many meetings rooms are in Floor 1?
+    </p>
+    <InputWithNumbers />
+  </div>
+      
+  <div>
+    <p>
+      Name Your Meetings Rooms
+    </p>
+    <div
+      className="name-rooms"
+    >
+      <div
+        className="name-rooms-left"
+      >
+        <div
+          className="name-rooms-image"
+        >
+          <img
+            src="test-file-stub"
+          />
+          <Input
+            controlsClass=""
+            id=""
+            inputClass="mrm-input default-input"
+            labelClass="input1"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            placeholder="Congitio"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="name-rooms-right"
+      >
+        <div
+          className="name-rooms-image"
+        >
+          <img
+            src="test-file-stub"
+          />
+          <Input
+            controlsClass=""
+            id=""
+            inputClass="mrm-input default-input"
+            labelClass="input1"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            placeholder="Congitio"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`AddRooms component should render with no erros 1`] = `
+<Fragment>
+  <div>
+    <div
+      className="addroom-page-title"
+    >
+      <div
+        className="back_icon"
+      >
+        <img
+          alt="back icon"
+          src="test-file-stub"
+        />
+      </div>
+      <div>
+        <span
+          className="addroom-title"
+        >
+          Add Rooms
+        </span>
+      </div>
+    </div>
+    <div>
+      <p>
+        Set the structure of your Center
+      </p>
+      <BuildingCardFloor
+        Floors={
+          Array [
+            "Floor 1",
+            "Floor 2",
+          ]
+        }
+        activeFloor="Floor 1"
+        block="Block A"
+      />
+    </div>
+        
+  </div>
+  <div>
+    <p>
+      How many meetings rooms are in Floor 1?
+    </p>
+    <InputWithNumbers />
+  </div>
+      
+  <div>
+    <p>
+      Name Your Meetings Rooms
+    </p>
+    <div
+      className="name-rooms"
+    >
+      <div
+        className="name-rooms-left"
+      >
+        <div
+          className="name-rooms-image"
+        >
+          <img
+            src="test-file-stub"
+          />
+          <Input
+            controlsClass=""
+            id=""
+            inputClass="mrm-input default-input"
+            labelClass="input1"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            placeholder="Congitio"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="name-rooms-right"
+      >
+        <div
+          className="name-rooms-image"
+        >
+          <img
+            src="test-file-stub"
+          />
+          <Input
+            controlsClass=""
+            id=""
+            inputClass="mrm-input default-input"
+            labelClass="input1"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            placeholder="Congitio"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

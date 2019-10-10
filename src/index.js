@@ -10,7 +10,6 @@ import apolloClient from './utils/ApolloClient';
 import './assets/styles/index.scss';
 import ErrorBoundary from './components/commons/ErrorBoundary';
 
-
 const RTButton = require('react-toolbox/lib/button/theme.css');
 const RTDialog = require('react-toolbox/lib/dialog/theme.css');
 const RTLink = require('react-toolbox/lib/link/theme.css');

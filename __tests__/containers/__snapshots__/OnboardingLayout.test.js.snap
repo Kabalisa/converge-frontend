@@ -12,6 +12,45 @@ exports[`Setup component should render properly 1`] = `
     >
       left component
     </h3>
+    <Button
+      classProp={null}
+      handleClick={null}
+      isDisabled={false}
+      title="Next"
+      type={3}
+    />
+  </div>
+  <div
+    className="layout-item-second"
+  >
+    <h3
+      className="right-component"
+    >
+      Right-component
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`Setup component should render properly 2`] = `
+<div
+  className="layout-container"
+>
+  <div
+    className="layout-item-first"
+  >
+    <h3
+      className="left-component"
+    >
+      left component
+    </h3>
+    <Button
+      classProp={null}
+      handleClick={null}
+      isDisabled={false}
+      title="Next"
+      type={3}
+    />
   </div>
   <div
     className="layout-item-second"

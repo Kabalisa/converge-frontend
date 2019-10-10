@@ -55,7 +55,7 @@ exports[`RoomForm should render properly 1`] = `
       placeholder="Enter room name"
       required={true}
       type="text"
-      value="text"
+      value=""
     >
       <div
         className="input-wrapper"
@@ -66,7 +66,7 @@ exports[`RoomForm should render properly 1`] = `
           Room Name
           <input
             className="mrm-input default-input"
-            defaultValue="text"
+            defaultValue=""
             id="roomName"
             name="roomName"
             onBlur={[Function]}

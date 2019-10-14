@@ -4,7 +4,7 @@ import { ApolloConsumer } from 'react-apollo';
 import PropTypes from 'prop-types';
 import jwtDecode from 'jwt-decode';
 import ROUTES from './utils/routes';
-import { Preference, RoomFeedbackPage } from './containers';
+import { Preference, RoomFeedbackPage, Analytics } from './containers';
 import { LoginPage } from './components';
 import Constants from './utils/Constants';
 import '../src/assets/styles/toastr.scss';
@@ -131,6 +131,7 @@ class App extends Component {
               <ErrorBoundary isAuthError>
                 <Switch>
                   <Route path={ROUTES.home} exact component={LoginPage} />
+                  <Route exact path={ROUTES.analytics} component={Analytics} />
                   <Route exact path={ROUTES.analytics} component={RoomsSetup} />
                   <Route exact path={ROUTES.roomfeedback} component={RoomFeedbackPage} />
                   <Route exact path={ROUTES.preference} component={Preference} />

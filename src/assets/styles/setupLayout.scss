@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+.setup-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background: map-get($color-white, 000) !important;
+
+    .setup-item-first {
+        background: map-get($color-white, 300);
+        height: 100vh;
+        border: 1px solid map-get($color-gray, 300);
+        display: grid;
+        margin: 0;
+    }
+
+    .setup-item-second {
+        .preview {
+            height: 29px;	
+            width: 86px;	
+            color: #333A3F;	
+            font-family: Lato;	
+            font-size: 24px;	
+            line-height: 29px;
+            margin-left: 57px;
+            margin-top: 50px;
+        }
+        .here-s-a-preview-of {
+            height: 17px;
+            width: 210px;
+            color: rgba(51,58,63,0.7);
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 17px;
+            margin-left: 57px;
+        }
+        .preview_image {
+            height: 235px;
+            width: 247px;
+            margin-left: 203px;
+            margin-top: 100px;
+            margin-right: 234px;
+        
+        }
+    }
+}

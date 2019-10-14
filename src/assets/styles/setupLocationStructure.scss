@@ -1,0 +1,37 @@
+@import './commonTextStyles';
+@import './variables.scss';
+
+.setup-location-structure-container {
+    place-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    .setup-location-structure-header {
+        @include bigTextStyle;
+        color: map-get($color-gray, 0);
+    }
+
+    .setup-location-structure-subheader {
+        @include normalTextStyle;
+        color: map-get($color-gray, 50);
+        margin-bottom: 35px;
+    }
+
+    .location-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+
+    .buildings-names-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+
+    .buildings-input-label {
+        @include normalTextStyle;
+        color: $color-normal;
+        margin-top: 15px;
+    }
+}

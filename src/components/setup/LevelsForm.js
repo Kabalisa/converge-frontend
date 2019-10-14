@@ -114,28 +114,6 @@ class LevelsForm extends Component {
    * @returns {void}
    */
 
-  updateErrorState = highestLevel => {
-    const { levelsDetails, levelCounter } = this.state;
-    const { tag, quantity, children } = levelsDetails[highestLevel - 1];
-    const errorState = levelsDetails;
-    const position = highestLevel - 1;
-    let errorArray = levelsDetails.errorInput;
-
-    if (!tag) {
-      errorState[position].errorInput = (errorArray && /* istanbul ignore next */ [...errorArray, 'tag']) || ['tag'];
-    } else if (children.length < quantity) {
-      errorState[position].errorInput = (errorArray && /* istanbul ignore next */ [...errorArray, quantity]) || [quantity];
-    }
-    if (children.length === quantity) {
-      children.forEach((child) => {
-        !child.name.length ? child.childError = (errorArray && /* istanbul ignore next */[...errorArray, 'levelName']) || ['levelName'] : null;
-      });
-    }
-
-    this.setState({
-      levelsDetails: errorState,
-    });
-  };
 
   handleInputChange = event => {
     event.preventDefault();

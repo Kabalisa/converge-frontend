@@ -1,0 +1,21 @@
+
+
+@import './commonTextStyles';
+@import './variables.scss';
+
+.location-preview {
+    .preview-title .preview-bottom-text {
+        @include normalTextStyle;
+        color: map-get($color-gray, 0);
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .preview-image {
+        margin: 60px 0;
+    }
+
+    .preview-bottom-text {
+        color: map-get($color-gray, 50);
+    }
+}

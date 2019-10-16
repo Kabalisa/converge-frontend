@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`officeStructure component should render with no errors 1`] = `
-<OnboardingLayout
+exports[`setupOfficeStructure Component should render correctly 1`] = `
+<SetupLayout
   layoutLeft={
     <UNDEFINED>
       <SetOfficeStructure
@@ -31,7 +31,7 @@ exports[`officeStructure component should render with no errors 1`] = `
               "parentId": "",
               "parentTitle": "",
               "position": 1,
-              "structureId": "211a61fd-2f96-4e64-9c69-efa9f68bc779",
+              "structureId": "6920afe8-7c61-4491-83cc-3235059ca66c",
               "tag": "",
             },
           ]
@@ -41,14 +41,13 @@ exports[`officeStructure component should render with no errors 1`] = `
     </UNDEFINED>
   }
   layoutRight={
-    <UNDEFINED>
-      <p
-        className="set-structure-title"
-      >
-        Here's a preview of your setup
-      </p>
-      <OfficeStructurePreview />
-    </UNDEFINED>
+    <SetupLocationPreview
+      content={
+        <UNDEFINED>
+          <OfficeStructurePreview />
+        </UNDEFINED>
+      }
+    />
   }
 />
 `;

@@ -43,6 +43,21 @@ exports[`OnboardingPages component should render the officeStructure page 1`] = 
 exports[`OnboardingPages component should render the setupLocation page 1`] = `
 <Fragment>
   <withRouter(TopMenuComponent) />
-  <div />
+  <div>
+    <BuildingsSetup
+      handleOnClick={[Function]}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`OnboardingPages component should render the welcome page 1`] = `
+<Fragment>
+  <withRouter(TopMenuComponent) />
+  <div>
+    <BuildingsSetup
+      handleOnClick={[Function]}
+    />
+  </div>
 </Fragment>
 `;

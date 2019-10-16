@@ -2,11 +2,6 @@
 
 exports[`OfficeStructurePreview component should render with no errors 1`] = `
 <div>
-  <p
-    className="set-structure-title"
-  >
-    Here's a preview of your setup
-  </p>
   <img
     alt="door icon"
     src="test-file-stub"

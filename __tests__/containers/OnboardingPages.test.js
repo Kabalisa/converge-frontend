@@ -7,8 +7,14 @@ describe('OnboardingPages component', () => {
     const wrapper = shallow(<OnboardingPages centerSetupLevel="defaultcase" />);
     expect(wrapper).toMatchSnapshot();
   });
+  it('should render the welcome page', () => {
+    const wrapper = shallow(<OnboardingPages centerSetupLevel="welcomePage" />);
+    const { handleOnClick } = wrapper.instance();
+    handleOnClick('buildingsSetup');
+    expect(wrapper).toMatchSnapshot();
+  });
   it('should render the setupLocation page', () => {
-    const wrapper = shallow(<OnboardingPages centerSetupLevel="setupLocation" />);
+    const wrapper = shallow(<OnboardingPages centerSetupLevel="buildingsSetup" />);
     expect(wrapper).toMatchSnapshot();
   });
   it('should render the officeStructure page', () => {
@@ -22,5 +28,9 @@ describe('OnboardingPages component', () => {
   it('should render the addResources page', () => {
     const wrapper = shallow(<OnboardingPages centerSetupLevel="addResources" />);
     expect(wrapper).toMatchSnapshot();
+  });
+  it('it should render the Container component', () => {
+    const wrapper = shallow(<OnboardingPages centerSetupLevel="welcomePage" />);
+    wrapper.setState({ page: 1 });
   });
 });

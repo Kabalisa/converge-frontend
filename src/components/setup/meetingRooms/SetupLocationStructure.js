@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import InputsWithAddIcon from '../../commons/AddIconInput';
@@ -7,7 +8,9 @@ import InputField from '../../commons/InputField';
 import Button from '../../commons/Button';
 
 
-const SetupLocationStructure = ({ handleChange, handleClick, buildings }) => (
+const SetupLocationStructure = ({
+  handleChange, handleClick, buildings, buildingcreated, nextPage,
+}) => (
   <div className="setup-location-structure-container">
     <h1 className="setup-location-structure-header">
               Setup Your Location
@@ -28,6 +31,7 @@ const SetupLocationStructure = ({ handleChange, handleClick, buildings }) => (
     </p>
     <InputsWithAddIcon onInputChange={buildings} />
     <Button id="NextButton" title="Next" type={3} handleClick={handleClick} />
+    {buildingcreated && nextPage('officeStructure')}
   </div>
 );
 
@@ -35,6 +39,8 @@ SetupLocationStructure.propTypes = {
   handleChange: PropTypes.func.isRequired,
   handleClick: PropTypes.func.isRequired,
   buildings: PropTypes.func.isRequired,
+  buildingcreated: PropTypes.any.isRequired,
+  nextPage: PropTypes.func.isRequired,
 };
 
 export default SetupLocationStructure;

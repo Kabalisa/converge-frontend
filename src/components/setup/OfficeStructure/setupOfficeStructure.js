@@ -1,14 +1,15 @@
 import React, { Component, Fragment } from 'react';
-import PropTypes from 'prop-types';
 import uuid from 'uuid';
-import OnboardingLayout from '../../../containers/OnboardingLayout';
-import SetOfficeStructure from './setOfficeStructure';
-import OfficeStructurePreview from './officeStructurePreview';
-import NextButton from './nextButton';
-import '../../../assets/styles/onboardingLayout.scss';
+import PropTypes from 'prop-types';
+import SetupLayout from '../../../containers/SetupLayout';
+import SetOfficeStructure from '../../onboarding/officeStructure/setOfficeStructure';
+import OfficeStructurePreview from '../../onboarding/officeStructure/officeStructurePreview';
+import NextButton from '../../onboarding/officeStructure/nextButton';
+import SetupLocationPreview from '../meetingRooms/SetupLocationPreview';
 import { getRoomsStructure } from '../../helpers/QueriesHelpers';
 
-class OfficeStructure extends Component {
+
+class setupOfficeStructure extends Component {
   state = {
     blocks: [],
     activeBlock: '',
@@ -142,6 +143,7 @@ class OfficeStructure extends Component {
     const {
       blocks, activeBlock, LevelTypeNumber, levelType,
     } = this.state;
+
     const flattenedData = this.handleNext();
     const layoutLeft = (
       <Fragment>
@@ -157,26 +159,26 @@ class OfficeStructure extends Component {
         />
         <NextButton
           flattenedData={flattenedData}
-          handleOnClick={this.props.handleOnClick}
+          handleOnClick={this.props.nextPage}
         />
       </Fragment>
     );
     const layoutRight = (
       <Fragment>
-        <p className="set-structure-title">
-          {"Here's a preview of your setup"}
-        </p>
         <OfficeStructurePreview />
       </Fragment>
     );
     return (
-      <OnboardingLayout layoutLeft={layoutLeft} layoutRight={layoutRight} />
+      <SetupLayout
+        layoutRight={<SetupLocationPreview content={layoutRight} />}
+        layoutLeft={layoutLeft}
+      />
     );
   }
 }
 
-OfficeStructure.propTypes = {
-  handleOnClick: PropTypes.func.isRequired,
+setupOfficeStructure.propTypes = {
+  nextPage: PropTypes.func.isRequired,
 };
 
-export default OfficeStructure;
+export default setupOfficeStructure;

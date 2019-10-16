@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import BuildingCard from '../../../src/components/commons/BuildingCard';
 
-
 describe('BuildingCard component', () => {
   const props = {
     blocks: ['Block A', 'Block B'],

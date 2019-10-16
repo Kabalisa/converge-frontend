@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>765D278F-28D2-4D48-A873-E3A46DD8DE82</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="1.5" cy="1.5" r="1.5"></circle>
+        <circle id="path-2" cx="9.5" cy="1.5" r="1.5"></circle>
+        <circle id="path-3" cx="1.5" cy="9.5" r="1.5"></circle>
+        <circle id="path-4" cx="9.5" cy="9.5" r="1.5"></circle>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-123.000000, -551.000000)">
+            <g id="Rooms_active" transform="translate(125.000000, 553.000000)">
+                <circle id="Oval" stroke="#2C7CF1" cx="5.5" cy="5.5" r="5.5"></circle>
+                <g id="Oval-Copy-2">
+                    <use stroke="#FFFFFF" stroke-width="3" xlink:href="#path-1"></use>
+                    <use stroke="#2C7CF1" stroke-width="1" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval-Copy-3">
+                    <use stroke="#FFFFFF" stroke-width="3" xlink:href="#path-2"></use>
+                    <use stroke="#2C7CF1" stroke-width="1" xlink:href="#path-2"></use>
+                </g>
+                <g id="Oval-Copy-5">
+                    <use stroke="#FFFFFF" stroke-width="3" xlink:href="#path-3"></use>
+                    <use stroke="#2C7CF1" stroke-width="1" xlink:href="#path-3"></use>
+                </g>
+                <g id="Oval-Copy-4">
+                    <use stroke="#FFFFFF" stroke-width="3" xlink:href="#path-4"></use>
+                    <use stroke="#2C7CF1" stroke-width="1" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

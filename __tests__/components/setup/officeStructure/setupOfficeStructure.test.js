@@ -3,10 +3,11 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import uuid from 'uuid';
 
-import OfficeStructure from '../../../src/components/onboarding/officeStructure/officeStructure';
+import SetupOfficeStructure from '../../../../src/components/setup/OfficeStructure/setupOfficeStructure';
 
-jest.mock('../../../src/components/helpers/QueriesHelpers');
-import { getRoomsStructure } from '../../../src/components/helpers/QueriesHelpers';
+jest.mock('../../../../src/components/helpers/QueriesHelpers');
+
+import { getRoomsStructure } from '../../../../src/components/helpers/QueriesHelpers';
 
 getRoomsStructure.mockImplementation(() => ({
   allStructures: [
@@ -24,17 +25,11 @@ getRoomsStructure.mockImplementation(() => ({
     }],
 }));
 
-describe('officeStructure component', () => {
-  const wrapper = shallow(<OfficeStructure />);
+describe('setupOfficeStructure Component', () => {
+  const wrapper = shallow(<SetupOfficeStructure />);
 
-  it('should render with no errors', () => {
+  it('should render correctly', () => {
     expect(wrapper).toMatchSnapshot();
-  });
-  it('calls the centerBuildings method', () => {
-    const instance = wrapper.instance();
-    jest.spyOn(instance, 'centerBuildings');
-    instance.componentDidMount();
-    expect(instance.centerBuildings).toHaveBeenCalledTimes(1);
   });
   it('calls the handleLeveltype method', () => {
     const instance = wrapper.instance();

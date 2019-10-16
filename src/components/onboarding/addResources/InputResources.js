@@ -24,7 +24,7 @@ const InputResources = ({ handleOnClick }) => {
     data: { allRooms },
   } = useQuery(GET_SPECIFIC_ROOMS);
 
-  const structureRooms = allStructures && allStructures.filter(item => item.level === 4);
+  const structureRooms = allStructures ? allStructures.filter(item => item.level === 4) : [{}];
 
   const room = allRooms && allRooms.rooms.find(item => item.name === structureRooms[0].name);
   const handleChange = (index, e) => {

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin setup info component should render the get statrted case without error 1`] = `
+<SetupInfoPage>
+  <div
+    className="setup_container"
+  >
+    <div
+      className="message"
+    >
+      <h1
+        className="setup"
+      >
+         Setup
+      </h1>
+      <p
+        className="configure-andela-cen"
+      >
+        Configure Andela centres
+      </p>
+    </div>
+    <div
+      className="setup_container_center"
+    >
+      <SetupLevel>
+        <div
+          className="setup_image"
+        >
+          <div
+            className="setup_carousel"
+          >
+            <ImageLoader
+              altText="carousel_illustration"
+              className=""
+              source="test-file-stub"
+            >
+              <div
+                className="image_loader_wrapper"
+              >
+                <div
+                  className="loader"
+                >
+                  <div
+                    className="loader_animation"
+                  />
+                </div>
+                <img
+                  alt="carousel_illustration"
+                  className=""
+                  onLoad={[Function]}
+                  src="test-file-stub"
+                  style={
+                    Object {
+                      "visibility": "hidden",
+                    }
+                  }
+                />
+              </div>
+            </ImageLoader>
+          </div>
+          <div
+            className="setup_info"
+          >
+            <p>
+              This will enable you setup buildings, offices & spaces where meeting rooms happen within Andela.
+            </p>
+          </div>
+        </div>
+      </SetupLevel>
+      <Button
+        classProp="setup_continue_button"
+        handleClick={[Function]}
+        id="Next"
+        isDisabled={false}
+        title="Get Started"
+        type={1}
+      >
+        <button
+          className="setup_continue_button btn-primary"
+          disabled={false}
+          id="Next"
+          onClick={[Function]}
+        >
+          <span>
+            Get Started
+          </span>
+        </button>
+      </Button>
+    </div>
+  </div>
+</SetupInfoPage>
+`;

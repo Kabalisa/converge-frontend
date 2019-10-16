@@ -1,6 +1,8 @@
 @import './variables.scss';
 .office-structure-container {
     display: flex;
+    flex-wrap: wrap;
+    width: 465px;
   }
   .office-structure-block {
     border: 1px solid map-get($color-gray, 400);
@@ -8,6 +10,7 @@
     height: 110px;
     text-align: center;
     margin-right: 15px;
+    margin-bottom: 5px;
     border-radius: 6px;
     background-color: map-get($color-white, 300);
   }

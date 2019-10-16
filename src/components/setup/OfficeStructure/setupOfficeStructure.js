@@ -1,15 +1,16 @@
 import React, { Component, Fragment } from 'react';
-import PropTypes from 'prop-types';
 import uuid from 'uuid';
-import OnboardingLayout from '../../../containers/OnboardingLayout';
-import SetOfficeStructure from './setOfficeStructure';
-import OfficeStructurePreview from './officeStructurePreview';
-import NextButton from './nextButton';
-import '../../../assets/styles/onboardingLayout.scss';
+import PropTypes from 'prop-types';
+import SetupLayout from '../../../containers/SetupLayout';
+import SetOfficeStructure from '../../onboarding/officeStructure/setOfficeStructure';
+import OfficeStructurePreview from '../../onboarding/officeStructure/officeStructurePreview';
+import NextButton from '../../onboarding/officeStructure/nextButton';
+import SetupLocationPreview from '../meetingRooms/SetupLocationPreview';
 import { getRoomsStructure } from '../../helpers/QueriesHelpers';
 import BackIcon from '../../commons/backIcon';
 
-class OfficeStructure extends Component {
+
+class setupOfficeStructure extends Component {
   state = {
     blocks: [],
     activeBlock: '',
@@ -136,8 +137,9 @@ class OfficeStructure extends Component {
     const {
       blocks, activeBlock, levelType,
     } = this.state;
+
     const flattenedData = this.handleNext();
-    const backIcon = <BackIcon handleOnClick={this.props.handleOnClick} page="buildingsSetup" />;
+    const backIcon = <BackIcon handleOnClick={this.props.nextPage} page="setupLocation" />;
     const layoutLeft = (
       <Fragment>
         <SetOfficeStructure
@@ -151,27 +153,27 @@ class OfficeStructure extends Component {
         />
         <NextButton
           flattenedData={flattenedData}
-          handleOnClick={this.props.handleOnClick}
+          handleOnClick={this.props.nextPage}
           levelType={levelType}
         />
       </Fragment>
     );
     const layoutRight = (
       <Fragment>
-        <p className="set-structure-title">
-          {"Here's a preview of your setup"}
-        </p>
         <OfficeStructurePreview />
       </Fragment>
     );
     return (
-      <OnboardingLayout layoutLeft={layoutLeft} layoutRight={layoutRight} />
+      <SetupLayout
+        layoutRight={<SetupLocationPreview content={layoutRight} />}
+        layoutLeft={layoutLeft}
+      />
     );
   }
 }
 
-OfficeStructure.propTypes = {
-  handleOnClick: PropTypes.func.isRequired,
+setupOfficeStructure.propTypes = {
+  nextPage: PropTypes.func.isRequired,
 };
 
-export default OfficeStructure;
+export default setupOfficeStructure;

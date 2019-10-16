@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import PreviewComponent from '.../../../src/components/setup/Preview';

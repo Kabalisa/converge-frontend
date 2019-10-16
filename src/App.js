@@ -18,7 +18,6 @@ import {
   getUserDetails,
   getAllLocations,
   getUserLocation,
-  getRoomsStructure,
 } from './components/helpers/QueriesHelpers';
 import GetNewUsersLocation from './containers/GetNewUsersLocation';
 import { removeItemFromLocalStorage } from './utils/Utilities';

@@ -8,7 +8,7 @@ const SetupLocationPreview = ({ content }) => (
     <div className="preview-title"> <p className="preview">Preview</p>
       <p className="here-s-a-preview-of">Here is the preview of your setup</p>
     </div>
-    <div>
+    <div className="content">
       {content}
     </div>
   </div>

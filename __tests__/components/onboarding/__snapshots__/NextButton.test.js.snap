@@ -912,12 +912,43 @@ exports[`NextButton component should render without error 1`] = `
             "parentTitle": "parentTitle",
             "position": 1,
             "structureId": "structureId",
-            "tag": "tag",
+            "tag": "Wings",
           },
         ]
       }
+      handleOnClick={[MockFunction]}
+      levelType="Wings"
     >
       <div>
+        <ToastContainer
+          autoClose={5000}
+          bodyClassName={null}
+          className={null}
+          closeButton={
+            <CloseButton
+              ariaLabel="close"
+            />
+          }
+          closeOnClick={true}
+          draggable={true}
+          draggablePercent={80}
+          hideProgressBar={false}
+          newestOnTop={false}
+          pauseOnFocusLoss={true}
+          pauseOnHover={true}
+          position="top-left"
+          progressClassName={null}
+          progressStyle={null}
+          role="alert"
+          rtl={false}
+          style={null}
+          toastClassName={null}
+          transition={[Function]}
+        >
+          <div
+            className="Toastify"
+          />
+        </ToastContainer>
         <Button
           classProp={null}
           handleClick={[Function]}

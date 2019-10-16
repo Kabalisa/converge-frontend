@@ -47,11 +47,47 @@ describe('NextButton component', () => {
         name: 'test office',
         parentId: 'parentId',
         parentTitle: 'parentTitle',
-        tag: 'tag',
+        tag: 'Wings',
         locationId: 100,
         position: 1,
       },
     ],
+    handleOnClick: jest.fn().mockImplementation(page => page),
+    levelType: 'Wings',
+  };
+
+  const props2 = {
+    flattenedData: [
+      {
+        structureId: 'structureId',
+        level: 4,
+        name: 'test office',
+        parentId: 'parentId',
+        parentTitle: 'parentTitle',
+        tag: 'Wings',
+        locationId: 100,
+        position: 1,
+      },
+    ],
+    handleOnClick: jest.fn(),
+    levelType: '',
+  };
+
+  const props3 = {
+    flattenedData: [
+      {
+        structureId: 'structureId',
+        level: 4,
+        name: '',
+        parentId: 'parentId',
+        parentTitle: 'parentTitle',
+        tag: 'Wings',
+        locationId: 100,
+        position: 1,
+      },
+    ],
+    handleOnClick: jest.fn(),
+    levelType: 'Wings',
   };
 
   const wrapper = mount(
@@ -60,11 +96,29 @@ describe('NextButton component', () => {
     </MockedProvider>,
   );
 
+  const wrapper2 = mount(
+    <MockedProvider mocks={mocks} addTypename={false}>
+      <NextButton {...props2} />
+    </MockedProvider>,
+  );
+
+  const wrapper3 = mount(
+    <MockedProvider mocks={mocks} addTypename={false}>
+      <NextButton {...props3} />
+    </MockedProvider>,
+  );
+
   it('should render without error', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should click the button', () => {
+  it('should click the button with levelType', () => {
     wrapper.find('button').simulate('click');
+  });
+  it('should click the button without leveType', () => {
+    wrapper2.find('button').simulate('click');
+  });
+  it('should click the button with error', () => {
+    wrapper3.find('button').simulate('click');
   });
 });

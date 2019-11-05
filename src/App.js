@@ -23,6 +23,7 @@ import {
 import GetNewUsersLocation from './containers/GetNewUsersLocation';
 import { removeItemFromLocalStorage } from './utils/Utilities';
 import WelcomePage from './components/onboarding/WelcomePage';
+import CustomCarousel from './components/login/Carousel';
 import BuildingsSetup from './components/onboarding/BuildingsSetup/index';
 import Container from './containers/mainContainer';
 import OnboardingPages from './containers/OnboardingPages';

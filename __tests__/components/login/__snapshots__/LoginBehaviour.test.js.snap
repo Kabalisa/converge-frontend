@@ -186,432 +186,443 @@ exports[`Login component should redirect to another page when a token is present
     autoplay={true}
     legendPosition="legend-center"
   >
-    <Carousel
-      autoPlay={true}
-      axis="horizontal"
-      centerMode={false}
-      centerSlidePercentage={80}
-      dynamicHeight={false}
-      emulateTouch={false}
-      infiniteLoop={true}
-      interval={3000}
-      labels={
-        Object {
-          "item": "slide item",
-          "leftArrow": "previous slide / item",
-          "rightArrow": "next slide / item",
-        }
-      }
-      onChange={[Function]}
-      onClickItem={[Function]}
-      onClickThumb={[Function]}
-      onSwipeEnd={[Function]}
-      onSwipeMove={[Function]}
-      onSwipeStart={[Function]}
-      selectedItem={0}
-      showArrows={false}
-      showIndicators={true}
-      showStatus={false}
-      showThumbs={true}
-      statusFormatter={[Function]}
-      stopOnHover={false}
-      swipeScrollTolerance={5}
-      swipeable={true}
-      transitionTime={2000}
-      useKeyboardArrows={false}
-      verticalSwipe="standard"
-      width="100%"
+    <div
+      className="carousel"
     >
-      <div>
-        <div
-          className="carousel carousel-slider"
-          style={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
-          <button
-            aria-label="previous slide / item"
-            className="control-arrow control-prev control-disabled"
-            onClick={[Function]}
-            type="button"
-          />
-          <div
-            className="slider-wrapper axis-horizontal"
-            style={Object {}}
-          >
-            <ReactSwipe
-              allowMouseEvents={false}
-              className="slider animated"
-              onSwipeDown={[Function]}
-              onSwipeEnd={[Function]}
-              onSwipeLeft={[Function]}
-              onSwipeMove={[Function]}
-              onSwipeRight={[Function]}
-              onSwipeStart={[Function]}
-              onSwipeUp={[Function]}
-              selectedItem={0}
-              style={
-                Object {
-                  "MozTransform": "translate3d(-100%,0,0)",
-                  "MozTransitionDuration": "2000ms",
-                  "MsTransform": "translate3d(-100%,0,0)",
-                  "MsTransitionDuration": "2000ms",
-                  "OTransform": "translate3d(-100%,0,0)",
-                  "OTransitionDuration": "2000ms",
-                  "WebkitTransform": "translate3d(-100%,0,0)",
-                  "WebkitTransitionDuration": "2000ms",
-                  "msTransform": "translate3d(-100%,0,0)",
-                  "msTransitionDuration": "2000ms",
-                  "transform": "translate3d(-100%,0,0)",
-                  "transitionDuration": "2000ms",
-                }
-              }
-              tagName="ul"
-              tolerance={5}
-            >
-              <ul
-                className="slider animated"
-                onMouseDown={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                style={
-                  Object {
-                    "MozTransform": "translate3d(-100%,0,0)",
-                    "MozTransitionDuration": "2000ms",
-                    "MsTransform": "translate3d(-100%,0,0)",
-                    "MsTransitionDuration": "2000ms",
-                    "OTransform": "translate3d(-100%,0,0)",
-                    "OTransitionDuration": "2000ms",
-                    "WebkitTransform": "translate3d(-100%,0,0)",
-                    "WebkitTransitionDuration": "2000ms",
-                    "msTransform": "translate3d(-100%,0,0)",
-                    "msTransitionDuration": "2000ms",
-                    "transform": "translate3d(-100%,0,0)",
-                    "transitionDuration": "2000ms",
-                  }
-                }
-              >
-                <li
-                  className="slide"
-                  key="itemKey3clone/.$Banku Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Banku Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Banku Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide selected"
-                  key="itemKey0/.$Safari Meeting Room, Andela New York"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Safari Meeting Room, Andela New York"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Safari Meeting Room, Andela New York
-                    </p>
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey1/.$Cognitio Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Cognitio Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Cognitio Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Cognitio Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey2/.$Entebbe Meeting Room, Andela Kampala"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Entebbe Meeting Room, Andela Kampala"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Entebbe Meeting Room, Andela Kampala
-                    </p>
-                    <img
-                      alt="Entebbe Meeting Room, Andela Kampala"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey3/.$Banku Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Banku Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Banku Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide selected"
-                  key="itemKey0clone/.$Safari Meeting Room, Andela New York"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Safari Meeting Room, Andela New York"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Safari Meeting Room, Andela New York
-                    </p>
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </ReactSwipe>
-          </div>
-          <button
-            aria-label="next slide / item"
-            className="control-arrow control-next control-disabled"
-            onClick={[Function]}
-            type="button"
-          />
-          <ul
-            className="control-dots"
-          >
-            <li
-              aria-label="slide item 1"
-              className="dot selected"
-              key="0/.$Safari Meeting Room, Andela New York"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={0}
-            />
-            <li
-              aria-label="slide item 2"
-              className="dot"
-              key="1/.$Cognitio Meeting Room, Andela Lagos"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={1}
-            />
-            <li
-              aria-label="slide item 3"
-              className="dot"
-              key="2/.$Entebbe Meeting Room, Andela Kampala"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={2}
-            />
-            <li
-              aria-label="slide item 4"
-              className="dot"
-              key="3/.$Banku Meeting Room, Andela Lagos"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={3}
-            />
-          </ul>
-        </div>
-        <Thumbs
-          axis="horizontal"
-          labels={
-            Object {
-              "item": "slide item",
-              "leftArrow": "previous slide / item",
-              "rightArrow": "next slide / item",
-            }
-          }
-          onSelectItem={[Function]}
+      <Slider
+        appendDots={[Function]}
+        autoplay={true}
+        autoplaySpeed={3000}
+        className="slide"
+        cssEase="ease-in"
+        dots={true}
+        dotsClass="slick-dots"
+        fade={true}
+        infinite={true}
+        onChange={[Function]}
+        pauseOnDotsHover={true}
+        pauseOnFocus={true}
+        pauseOnHover={false}
+        selectedItem={0}
+        slidesToScroll={3}
+        slidesToShow={1}
+        speed={3000}
+        touchThreshold={100}
+      >
+        <InnerSlider
+          accessibility={true}
+          adaptiveHeight={false}
+          afterChange={null}
+          appendDots={[Function]}
+          arrows={true}
+          autoplay={true}
+          autoplaySpeed={3000}
+          beforeChange={null}
+          centerMode={false}
+          centerPadding="50px"
+          className="slide"
+          cssEase="ease-in"
+          customPaging={[Function]}
+          dots={true}
+          dotsClass="slick-dots"
+          draggable={true}
+          easing="linear"
+          edgeFriction={0.35}
+          fade={true}
+          focusOnSelect={false}
+          infinite={true}
+          initialSlide={0}
+          lazyLoad={null}
+          nextArrow={null}
+          onChange={[Function]}
+          onEdge={null}
+          onInit={null}
+          onLazyLoadError={null}
+          onReInit={null}
+          pauseOnDotsHover={true}
+          pauseOnFocus={true}
+          pauseOnHover={false}
+          prevArrow={null}
+          responsive={null}
+          rows={1}
+          rtl={false}
           selectedItem={0}
-          transitionTime={2000}
+          slide="div"
+          slidesPerRow={1}
+          slidesToScroll={1}
+          slidesToShow={1}
+          speed={3000}
+          swipe={true}
+          swipeEvent={null}
+          swipeToSlide={false}
+          touchMove={true}
+          touchThreshold={100}
+          useCSS={true}
+          useTransform={true}
+          variableWidth={false}
+          vertical={false}
+          waitForAnimate={true}
         >
           <div
-            className="carousel"
+            className="slick-slider slide slick-initialized"
+            dir="ltr"
           >
-            <div
-              className="thumbs-wrapper axis-vertical"
+            <PrevArrow
+              centerMode={false}
+              clickHandler={[Function]}
+              currentSlide={0}
+              infinite={true}
+              nextArrow={null}
+              prevArrow={null}
+              slideCount={4}
+              slidesToShow={1}
             >
               <button
-                aria-label="previous slide / item"
-                className="control-arrow control-prev control-disabled"
+                className="slick-arrow slick-prev"
+                data-role="none"
+                key="0"
                 onClick={[Function]}
-                type="button"
-              />
-              <ReactSwipe
-                allowMouseEvents={false}
-                className="thumbs animated"
-                onSwipeDown={[Function]}
-                onSwipeEnd={[Function]}
-                onSwipeLeft={[Function]}
-                onSwipeMove={[Function]}
-                onSwipeRight={[Function]}
-                onSwipeStart={[Function]}
-                onSwipeUp={[Function]}
-                selectedItem={0}
                 style={
                   Object {
-                    "MozTransform": "translate3d(NaNpx,0,0)",
-                    "MozTransitionDuration": "2000ms",
-                    "MsTransform": "translate3d(NaNpx,0,0)",
-                    "MsTransitionDuration": "2000ms",
-                    "OTransform": "translate3d(NaNpx,0,0)",
-                    "OTransitionDuration": "2000ms",
-                    "WebkitTransform": "translate3d(NaNpx,0,0)",
-                    "WebkitTransitionDuration": "2000ms",
-                    "msTransform": "translate3d(NaNpx,0,0)",
-                    "msTransitionDuration": "2000ms",
-                    "transform": "translate3d(NaNpx,0,0)",
-                    "transitionDuration": "2000ms",
+                    "display": "block",
                   }
                 }
-                tagName="ul"
-                tolerance={0}
+                type="button"
               >
-                <ul
-                  className="thumbs animated"
-                  onMouseDown={[Function]}
-                  onTouchEnd={[Function]}
-                  onTouchStart={[Function]}
+                 
+                Previous
+              </button>
+            </PrevArrow>
+            <div
+              className="slick-list"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={null}
+              onMouseMove={null}
+              onMouseUp={[Function]}
+              onTouchCancel={null}
+              onTouchEnd={[Function]}
+              onTouchMove={null}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <Track
+                centerMode={false}
+                centerPadding="50px"
+                cssEase="ease-in"
+                currentSlide={0}
+                fade={true}
+                focusOnSelect={null}
+                infinite={true}
+                lazyLoad={null}
+                lazyLoadedList={Array []}
+                listHeight={0}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                onMouseOver={null}
+                rtl={false}
+                slideCount={4}
+                slideHeight={0}
+                slideWidth={0}
+                slidesToScroll={1}
+                slidesToShow={1}
+                speed={3000}
+                trackStyle={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                variableWidth={false}
+                vertical={false}
+              >
+                <div
+                  className="slick-track"
+                  onMouseEnter={null}
+                  onMouseLeave={null}
+                  onMouseOver={null}
                   style={
                     Object {
-                      "MozTransform": "translate3d(NaNpx,0,0)",
-                      "MozTransitionDuration": "2000ms",
-                      "MsTransform": "translate3d(NaNpx,0,0)",
-                      "MsTransitionDuration": "2000ms",
-                      "OTransform": "translate3d(NaNpx,0,0)",
-                      "OTransitionDuration": "2000ms",
-                      "WebkitTransform": "translate3d(NaNpx,0,0)",
-                      "WebkitTransitionDuration": "2000ms",
-                      "msTransform": "translate3d(NaNpx,0,0)",
-                      "msTransitionDuration": "2000ms",
-                      "transform": "translate3d(NaNpx,0,0)",
-                      "transitionDuration": "2000ms",
+                      "opacity": 1,
                     }
                   }
                 >
-                  <li
-                    aria-label="slide item 1"
-                    className="thumb"
-                    key="0"
+                  <div
+                    aria-hidden={false}
+                    className="slick-slide slick-active slick-current"
+                    data-index={0}
+                    key="original0"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 1,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      key=".1/.$Safari Meeting Room, Andela New York"
-                      onLoad={[Function]}
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 2"
-                    className="thumb"
-                    key="1"
+                    <div
+                      key="0"
+                    >
+                      <div
+                        key="0"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Safari Meeting Room, Andela New York
+                        </p>
+                        <img
+                          alt="Safari Meeting Room, Andela New York"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={1}
+                    key="original1"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Cognitio Meeting Room, Andela Lagos"
-                      key=".1/.$Cognitio Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 3"
-                    className="thumb"
-                    key="2"
+                    <div
+                      key="11"
+                    >
+                      <div
+                        key="111"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Cognitio Meeting Room, Andela Lagos
+                        </p>
+                        <img
+                          alt="Cognitio Meeting Room, Andela Lagos"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={2}
+                    key="original2"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Entebbe Meeting Room, Andela Kampala"
-                      key=".1/.$Entebbe Meeting Room, Andela Kampala"
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 4"
-                    className="thumb"
-                    key="3"
+                    <div
+                      key="22"
+                    >
+                      <div
+                        key="222"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Entebbe Meeting Room, Andela Kampala
+                        </p>
+                        <img
+                          alt="Entebbe Meeting Room, Andela Kampala"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={3}
+                    key="original3"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      key=".1/.$Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </li>
-                </ul>
-              </ReactSwipe>
-              <button
-                aria-label="next slide / item"
-                className="control-arrow control-next control-disabled"
-                onClick={[Function]}
-                type="button"
-              />
+                    <div
+                      key="33"
+                    >
+                      <div
+                        key="333"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Banku Meeting Room, Andela Lagos
+                        </p>
+                        <img
+                          alt="Banku Meeting Room, Andela Lagos"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Track>
             </div>
+            <NextArrow
+              centerMode={false}
+              clickHandler={[Function]}
+              currentSlide={0}
+              infinite={true}
+              nextArrow={null}
+              prevArrow={null}
+              slideCount={4}
+              slidesToShow={1}
+            >
+              <button
+                className="slick-arrow slick-next"
+                data-role="none"
+                key="1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+                type="button"
+              >
+                 
+                Next
+              </button>
+            </NextArrow>
+            <Dots
+              appendDots={[Function]}
+              clickHandler={[Function]}
+              currentSlide={0}
+              customPaging={[Function]}
+              dotsClass="slick-dots"
+              infinite={true}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              slideCount={4}
+              slidesToScroll={1}
+              slidesToShow={1}
+            >
+              <div
+                className="slick-dots"
+                id="adjust-dots"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+              >
+                <ul>
+                   
+                  <li
+                    className="slick-active"
+                    key="0"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="1"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="2"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="3"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>
+                   
+                </ul>
+              </div>
+            </Dots>
           </div>
-        </Thumbs>
-      </div>
-    </Carousel>
+        </InnerSlider>
+      </Slider>
+    </div>
   </CustomCarousel>
 </Login>
 `;
@@ -796,432 +807,443 @@ exports[`Login component should redirect to another page when a user successfull
     autoplay={true}
     legendPosition="legend-center"
   >
-    <Carousel
-      autoPlay={true}
-      axis="horizontal"
-      centerMode={false}
-      centerSlidePercentage={80}
-      dynamicHeight={false}
-      emulateTouch={false}
-      infiniteLoop={true}
-      interval={3000}
-      labels={
-        Object {
-          "item": "slide item",
-          "leftArrow": "previous slide / item",
-          "rightArrow": "next slide / item",
-        }
-      }
-      onChange={[Function]}
-      onClickItem={[Function]}
-      onClickThumb={[Function]}
-      onSwipeEnd={[Function]}
-      onSwipeMove={[Function]}
-      onSwipeStart={[Function]}
-      selectedItem={0}
-      showArrows={false}
-      showIndicators={true}
-      showStatus={false}
-      showThumbs={true}
-      statusFormatter={[Function]}
-      stopOnHover={false}
-      swipeScrollTolerance={5}
-      swipeable={true}
-      transitionTime={2000}
-      useKeyboardArrows={false}
-      verticalSwipe="standard"
-      width="100%"
+    <div
+      className="carousel"
     >
-      <div>
-        <div
-          className="carousel carousel-slider"
-          style={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
-          <button
-            aria-label="previous slide / item"
-            className="control-arrow control-prev control-disabled"
-            onClick={[Function]}
-            type="button"
-          />
-          <div
-            className="slider-wrapper axis-horizontal"
-            style={Object {}}
-          >
-            <ReactSwipe
-              allowMouseEvents={false}
-              className="slider animated"
-              onSwipeDown={[Function]}
-              onSwipeEnd={[Function]}
-              onSwipeLeft={[Function]}
-              onSwipeMove={[Function]}
-              onSwipeRight={[Function]}
-              onSwipeStart={[Function]}
-              onSwipeUp={[Function]}
-              selectedItem={0}
-              style={
-                Object {
-                  "MozTransform": "translate3d(-100%,0,0)",
-                  "MozTransitionDuration": "2000ms",
-                  "MsTransform": "translate3d(-100%,0,0)",
-                  "MsTransitionDuration": "2000ms",
-                  "OTransform": "translate3d(-100%,0,0)",
-                  "OTransitionDuration": "2000ms",
-                  "WebkitTransform": "translate3d(-100%,0,0)",
-                  "WebkitTransitionDuration": "2000ms",
-                  "msTransform": "translate3d(-100%,0,0)",
-                  "msTransitionDuration": "2000ms",
-                  "transform": "translate3d(-100%,0,0)",
-                  "transitionDuration": "2000ms",
-                }
-              }
-              tagName="ul"
-              tolerance={5}
-            >
-              <ul
-                className="slider animated"
-                onMouseDown={[Function]}
-                onTouchEnd={[Function]}
-                onTouchStart={[Function]}
-                style={
-                  Object {
-                    "MozTransform": "translate3d(-100%,0,0)",
-                    "MozTransitionDuration": "2000ms",
-                    "MsTransform": "translate3d(-100%,0,0)",
-                    "MsTransitionDuration": "2000ms",
-                    "OTransform": "translate3d(-100%,0,0)",
-                    "OTransitionDuration": "2000ms",
-                    "WebkitTransform": "translate3d(-100%,0,0)",
-                    "WebkitTransitionDuration": "2000ms",
-                    "msTransform": "translate3d(-100%,0,0)",
-                    "msTransitionDuration": "2000ms",
-                    "transform": "translate3d(-100%,0,0)",
-                    "transitionDuration": "2000ms",
-                  }
-                }
-              >
-                <li
-                  className="slide"
-                  key="itemKey3clone/.$Banku Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Banku Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Banku Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide selected"
-                  key="itemKey0/.$Safari Meeting Room, Andela New York"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Safari Meeting Room, Andela New York"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Safari Meeting Room, Andela New York
-                    </p>
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey1/.$Cognitio Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Cognitio Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Cognitio Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Cognitio Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey2/.$Entebbe Meeting Room, Andela Kampala"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Entebbe Meeting Room, Andela Kampala"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Entebbe Meeting Room, Andela Kampala
-                    </p>
-                    <img
-                      alt="Entebbe Meeting Room, Andela Kampala"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide"
-                  key="itemKey3/.$Banku Meeting Room, Andela Lagos"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Banku Meeting Room, Andela Lagos"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Banku Meeting Room, Andela Lagos
-                    </p>
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-                <li
-                  className="slide selected"
-                  key="itemKey0clone/.$Safari Meeting Room, Andela New York"
-                  onClick={[Function]}
-                >
-                  <div
-                    key="Safari Meeting Room, Andela New York"
-                  >
-                    <p
-                      className="legend legend-center"
-                    >
-                      Safari Meeting Room, Andela New York
-                    </p>
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      src="test-file-stub"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </ReactSwipe>
-          </div>
-          <button
-            aria-label="next slide / item"
-            className="control-arrow control-next control-disabled"
-            onClick={[Function]}
-            type="button"
-          />
-          <ul
-            className="control-dots"
-          >
-            <li
-              aria-label="slide item 1"
-              className="dot selected"
-              key="0/.$Safari Meeting Room, Andela New York"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={0}
-            />
-            <li
-              aria-label="slide item 2"
-              className="dot"
-              key="1/.$Cognitio Meeting Room, Andela Lagos"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={1}
-            />
-            <li
-              aria-label="slide item 3"
-              className="dot"
-              key="2/.$Entebbe Meeting Room, Andela Kampala"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={2}
-            />
-            <li
-              aria-label="slide item 4"
-              className="dot"
-              key="3/.$Banku Meeting Room, Andela Lagos"
-              onClick={[Function]}
-              onKeyDown={[Function]}
-              role="button"
-              tabIndex={0}
-              value={3}
-            />
-          </ul>
-        </div>
-        <Thumbs
-          axis="horizontal"
-          labels={
-            Object {
-              "item": "slide item",
-              "leftArrow": "previous slide / item",
-              "rightArrow": "next slide / item",
-            }
-          }
-          onSelectItem={[Function]}
+      <Slider
+        appendDots={[Function]}
+        autoplay={true}
+        autoplaySpeed={3000}
+        className="slide"
+        cssEase="ease-in"
+        dots={true}
+        dotsClass="slick-dots"
+        fade={true}
+        infinite={true}
+        onChange={[Function]}
+        pauseOnDotsHover={true}
+        pauseOnFocus={true}
+        pauseOnHover={false}
+        selectedItem={0}
+        slidesToScroll={3}
+        slidesToShow={1}
+        speed={3000}
+        touchThreshold={100}
+      >
+        <InnerSlider
+          accessibility={true}
+          adaptiveHeight={false}
+          afterChange={null}
+          appendDots={[Function]}
+          arrows={true}
+          autoplay={true}
+          autoplaySpeed={3000}
+          beforeChange={null}
+          centerMode={false}
+          centerPadding="50px"
+          className="slide"
+          cssEase="ease-in"
+          customPaging={[Function]}
+          dots={true}
+          dotsClass="slick-dots"
+          draggable={true}
+          easing="linear"
+          edgeFriction={0.35}
+          fade={true}
+          focusOnSelect={false}
+          infinite={true}
+          initialSlide={0}
+          lazyLoad={null}
+          nextArrow={null}
+          onChange={[Function]}
+          onEdge={null}
+          onInit={null}
+          onLazyLoadError={null}
+          onReInit={null}
+          pauseOnDotsHover={true}
+          pauseOnFocus={true}
+          pauseOnHover={false}
+          prevArrow={null}
+          responsive={null}
+          rows={1}
+          rtl={false}
           selectedItem={0}
-          transitionTime={2000}
+          slide="div"
+          slidesPerRow={1}
+          slidesToScroll={1}
+          slidesToShow={1}
+          speed={3000}
+          swipe={true}
+          swipeEvent={null}
+          swipeToSlide={false}
+          touchMove={true}
+          touchThreshold={100}
+          useCSS={true}
+          useTransform={true}
+          variableWidth={false}
+          vertical={false}
+          waitForAnimate={true}
         >
           <div
-            className="carousel"
+            className="slick-slider slide slick-initialized"
+            dir="ltr"
           >
-            <div
-              className="thumbs-wrapper axis-vertical"
+            <PrevArrow
+              centerMode={false}
+              clickHandler={[Function]}
+              currentSlide={0}
+              infinite={true}
+              nextArrow={null}
+              prevArrow={null}
+              slideCount={4}
+              slidesToShow={1}
             >
               <button
-                aria-label="previous slide / item"
-                className="control-arrow control-prev control-disabled"
+                className="slick-arrow slick-prev"
+                data-role="none"
+                key="0"
                 onClick={[Function]}
-                type="button"
-              />
-              <ReactSwipe
-                allowMouseEvents={false}
-                className="thumbs animated"
-                onSwipeDown={[Function]}
-                onSwipeEnd={[Function]}
-                onSwipeLeft={[Function]}
-                onSwipeMove={[Function]}
-                onSwipeRight={[Function]}
-                onSwipeStart={[Function]}
-                onSwipeUp={[Function]}
-                selectedItem={0}
                 style={
                   Object {
-                    "MozTransform": "translate3d(NaNpx,0,0)",
-                    "MozTransitionDuration": "2000ms",
-                    "MsTransform": "translate3d(NaNpx,0,0)",
-                    "MsTransitionDuration": "2000ms",
-                    "OTransform": "translate3d(NaNpx,0,0)",
-                    "OTransitionDuration": "2000ms",
-                    "WebkitTransform": "translate3d(NaNpx,0,0)",
-                    "WebkitTransitionDuration": "2000ms",
-                    "msTransform": "translate3d(NaNpx,0,0)",
-                    "msTransitionDuration": "2000ms",
-                    "transform": "translate3d(NaNpx,0,0)",
-                    "transitionDuration": "2000ms",
+                    "display": "block",
                   }
                 }
-                tagName="ul"
-                tolerance={0}
+                type="button"
               >
-                <ul
-                  className="thumbs animated"
-                  onMouseDown={[Function]}
-                  onTouchEnd={[Function]}
-                  onTouchStart={[Function]}
+                 
+                Previous
+              </button>
+            </PrevArrow>
+            <div
+              className="slick-list"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={null}
+              onMouseMove={null}
+              onMouseUp={[Function]}
+              onTouchCancel={null}
+              onTouchEnd={[Function]}
+              onTouchMove={null}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <Track
+                centerMode={false}
+                centerPadding="50px"
+                cssEase="ease-in"
+                currentSlide={0}
+                fade={true}
+                focusOnSelect={null}
+                infinite={true}
+                lazyLoad={null}
+                lazyLoadedList={Array []}
+                listHeight={0}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                onMouseOver={null}
+                rtl={false}
+                slideCount={4}
+                slideHeight={0}
+                slideWidth={0}
+                slidesToScroll={1}
+                slidesToShow={1}
+                speed={3000}
+                trackStyle={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                variableWidth={false}
+                vertical={false}
+              >
+                <div
+                  className="slick-track"
+                  onMouseEnter={null}
+                  onMouseLeave={null}
+                  onMouseOver={null}
                   style={
                     Object {
-                      "MozTransform": "translate3d(NaNpx,0,0)",
-                      "MozTransitionDuration": "2000ms",
-                      "MsTransform": "translate3d(NaNpx,0,0)",
-                      "MsTransitionDuration": "2000ms",
-                      "OTransform": "translate3d(NaNpx,0,0)",
-                      "OTransitionDuration": "2000ms",
-                      "WebkitTransform": "translate3d(NaNpx,0,0)",
-                      "WebkitTransitionDuration": "2000ms",
-                      "msTransform": "translate3d(NaNpx,0,0)",
-                      "msTransitionDuration": "2000ms",
-                      "transform": "translate3d(NaNpx,0,0)",
-                      "transitionDuration": "2000ms",
+                      "opacity": 1,
                     }
                   }
                 >
-                  <li
-                    aria-label="slide item 1"
-                    className="thumb"
-                    key="0"
+                  <div
+                    aria-hidden={false}
+                    className="slick-slide slick-active slick-current"
+                    data-index={0}
+                    key="original0"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 1,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Safari Meeting Room, Andela New York"
-                      key=".1/.$Safari Meeting Room, Andela New York"
-                      onLoad={[Function]}
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 2"
-                    className="thumb"
-                    key="1"
+                    <div
+                      key="0"
+                    >
+                      <div
+                        key="0"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Safari Meeting Room, Andela New York
+                        </p>
+                        <img
+                          alt="Safari Meeting Room, Andela New York"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={1}
+                    key="original1"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Cognitio Meeting Room, Andela Lagos"
-                      key=".1/.$Cognitio Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 3"
-                    className="thumb"
-                    key="2"
+                    <div
+                      key="11"
+                    >
+                      <div
+                        key="111"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Cognitio Meeting Room, Andela Lagos
+                        </p>
+                        <img
+                          alt="Cognitio Meeting Room, Andela Lagos"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={2}
+                    key="original2"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Entebbe Meeting Room, Andela Kampala"
-                      key=".1/.$Entebbe Meeting Room, Andela Kampala"
-                      src="test-file-stub"
-                    />
-                  </li>
-                  <li
-                    aria-label="slide item 4"
-                    className="thumb"
-                    key="3"
+                    <div
+                      key="22"
+                    >
+                      <div
+                        key="222"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Entebbe Meeting Room, Andela Kampala
+                        </p>
+                        <img
+                          alt="Entebbe Meeting Room, Andela Kampala"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    className="slick-slide"
+                    data-index={3}
+                    key="original3"
                     onClick={[Function]}
-                    onKeyDown={[Function]}
-                    role="button"
-                    tabIndex={0}
+                    style={
+                      Object {
+                        "WebkitTransition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "left": -0,
+                        "opacity": 0,
+                        "outline": "none",
+                        "position": "relative",
+                        "transition": "opacity 3000ms ease-in, visibility 3000ms ease-in",
+                        "width": 0,
+                      }
+                    }
+                    tabIndex="-1"
                   >
-                    <img
-                      alt="Banku Meeting Room, Andela Lagos"
-                      key=".1/.$Banku Meeting Room, Andela Lagos"
-                      src="test-file-stub"
-                    />
-                  </li>
-                </ul>
-              </ReactSwipe>
-              <button
-                aria-label="next slide / item"
-                className="control-arrow control-next control-disabled"
-                onClick={[Function]}
-                type="button"
-              />
+                    <div
+                      key="33"
+                    >
+                      <div
+                        key="333"
+                        style={
+                          Object {
+                            "display": "inline-block",
+                            "width": "100%",
+                          }
+                        }
+                        tabIndex={-1}
+                      >
+                        <p
+                          className="legend legend-center"
+                        >
+                          Banku Meeting Room, Andela Lagos
+                        </p>
+                        <img
+                          alt="Banku Meeting Room, Andela Lagos"
+                          src="test-file-stub"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Track>
             </div>
+            <NextArrow
+              centerMode={false}
+              clickHandler={[Function]}
+              currentSlide={0}
+              infinite={true}
+              nextArrow={null}
+              prevArrow={null}
+              slideCount={4}
+              slidesToShow={1}
+            >
+              <button
+                className="slick-arrow slick-next"
+                data-role="none"
+                key="1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+                type="button"
+              >
+                 
+                Next
+              </button>
+            </NextArrow>
+            <Dots
+              appendDots={[Function]}
+              clickHandler={[Function]}
+              currentSlide={0}
+              customPaging={[Function]}
+              dotsClass="slick-dots"
+              infinite={true}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              slideCount={4}
+              slidesToScroll={1}
+              slidesToShow={1}
+            >
+              <div
+                className="slick-dots"
+                id="adjust-dots"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+              >
+                <ul>
+                   
+                  <li
+                    className="slick-active"
+                    key="0"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      1
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="1"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      2
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="2"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      3
+                    </button>
+                  </li>
+                  <li
+                    className=""
+                    key="3"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      4
+                    </button>
+                  </li>
+                   
+                </ul>
+              </div>
+            </Dots>
           </div>
-        </Thumbs>
-      </div>
-    </Carousel>
+        </InnerSlider>
+      </Slider>
+    </div>
   </CustomCarousel>
 </Login>
 `;

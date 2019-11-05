@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount, shallow } from 'enzyme';
 import { MemoryRouter } from 'react-router-dom';
+import '../../matchMedia.test';
 import LoginComponent, { Login } from '../../../src/components/login/Login';
 
 describe('Login component', () => {

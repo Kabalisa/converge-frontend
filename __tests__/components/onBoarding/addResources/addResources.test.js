@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import '../../../matchMedia.test';
 import AddResources from '../../../../src/components/onboarding/addResources/addResources';
 
 let component = '';

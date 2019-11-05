@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import '../matchMedia.test';
 import OnboardingPages from '../../src/containers/OnboardingPages';
 
 describe('OnboardingPages component', () => {

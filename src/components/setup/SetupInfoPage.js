@@ -4,6 +4,8 @@ import Button from '../commons/Button';
 import SetupLevel from './SetupLevel';
 import BuildingLevel from './BuildingLevel';
 import SetupOfficeStructure from './OfficeStructure/setupOfficeStructure';
+import AddRoom from '../setup/meetingRooms/AddRoom';
+
 
 const SetupInfoPage = () => {
   const [visiblePage, setVisiblePage] = useState('get started');
@@ -38,7 +40,9 @@ const SetupInfoPage = () => {
       case 'officeStructure':
         return <SetupOfficeStructure nextPage={handleClick} />;
       case 'addRooms':
-        return <h1>addRooms</h1>;
+        return <AddRoom nextPage={handleClick} />;
+      case 'addResources':
+        return <h1>Add Resource</h1>;
       default:
         return <h1>Page not found</h1>;
     }

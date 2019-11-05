@@ -90,6 +90,7 @@ const handleInput = (
                         setFormData, formData)}
                       base64
                       fileTypes={['.jpg', '.png', '.jpeg']}
+                      className="image-card"
                     >
                       <img
                         src={item.src ? item.src : roomImage2}
@@ -210,7 +211,7 @@ function AddRooms({ handleOnClick }) {
           </div>
         </div>
         <div>
-          <p>Set the structure of your Center</p>
+          <p className="head-title">Set the structure of your Center</p>
           <Query query={GET_ALL_LEVELS}>
             {/* istanbul ignore next */
              ({ data }) => {
@@ -241,9 +242,9 @@ function AddRooms({ handleOnClick }) {
         </div>
          &nbsp;&nbsp;&nbsp;&nbsp;
       </div>
-      <div>
+      <div className="addroom-content">
         <div>
-          <p>How many meetings rooms are in Floor?</p>
+          How many meetings rooms are in Floor?
           <div className="number-input-container">
             <NumberInput
               value={currentValue}
@@ -261,6 +262,7 @@ function AddRooms({ handleOnClick }) {
           handleClick={
           (e) => {
             e.preventDefault();
+            handleOnClick('addResources');
             createRoom({
               variables: {
                 name: selectNameRooms,
@@ -279,7 +281,7 @@ function AddRooms({ handleOnClick }) {
                 flattenedData: [{
                   structureId: uuid(),
                   name: selectNameRooms,
-                  level: 4,
+                  level: 3,
                   parentId: structureId,
                   parentTitle: roomLabels,
                   tag: 'Rooms',

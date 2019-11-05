@@ -21,12 +21,12 @@ import {
 } from './components/helpers/QueriesHelpers';
 import GetNewUsersLocation from './containers/GetNewUsersLocation';
 import { removeItemFromLocalStorage } from './utils/Utilities';
-import WelcomePage from './components/onboarding/WelcomePage';
 import BuildingsSetup from './components/onboarding/BuildingsSetup/index';
 import Container from './containers/mainContainer';
 import OnboardingPages from './containers/OnboardingPages';
 import centerSetupLevel from './components/helpers/centerStructureHelper';
-import Rooms from './components/onboarding/addRooms';
+
+
 // destruscture constants to be used
 const {
   MESSAGES: { authenticationError },

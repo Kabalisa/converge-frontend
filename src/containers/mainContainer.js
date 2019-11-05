@@ -4,6 +4,7 @@ import SideBar from '../components/commons/SideBar';
 import '../assets/styles/sidebar.scss';
 import SetupInfoPage from '../components/setup/SetupInfoPage';
 
+
 // eslint-disable-next-line react/prefer-stateless-function
 class Container extends Component {
   constructor(props) {

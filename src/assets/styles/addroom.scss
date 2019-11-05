@@ -69,10 +69,7 @@
  display: flex;
 overflow-x: auto;
 overflow-y: hidden;
- padding-top: 10px;
- padding-left: 10px;
- padding: 30px;
- margin-left: - 40px;
+ margin-right: 20px;
 }
 .name-rooms-image img{
   width: 150px;
@@ -90,4 +87,23 @@ overflow-y: hidden;
   height: 40px;
   margin-top: 220px;
   margin-left: - 158px;
+}
+.add-rooms {
+  padding: 40px 0 0 40px;
+}
+.addroom-title {
+  height: 29px;	
+  width: 124px;
+  color: #333A3F;	
+  font-family: Lato;	
+  font-size: 24px;	
+  font-weight: bold;	
+}
+.head-title {
+  height: 17px;	
+  width: 198px;	
+  color: rgba(51,58,63,0.7);	
+  font-family: Lato;	
+  font-size: 14px;	
+  line-height: 17px;
 }

@@ -31,7 +31,7 @@ exports[`officeStructure component should render with no errors 1`] = `
               "parentId": "",
               "parentTitle": "",
               "position": 1,
-              "structureId": "211a61fd-2f96-4e64-9c69-efa9f68bc779",
+              "structureId": "a0c85de7-a5cc-4667-afba-ddd5fec58d14",
               "tag": "",
             },
           ]

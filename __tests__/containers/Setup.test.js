@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import '../matchMedia.test';
 import Setup from '../../src/containers/Setup';
 
 describe('Setup component', () => {

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Carousel } from 'react-responsive-carousel';
+import Slider from 'react-slick';
 import '../../assets/styles/carousel.scss';
 import safariMeetingRoom from '../../assets/images/SafariMeetingRoom.png';
 import cognitio from '../../assets/images/cognitio.jpg';
 import entebbe from '../../assets/images/entebbe.png';
 import banku from '../../assets/images/banku.jpg';
 
+
 class CustomCarousel extends Component {
   state = {
-    interval: 3000,
     position: 0,
     rooms: [
       {
@@ -29,22 +29,15 @@ class CustomCarousel extends Component {
         img: banku,
       },
     ],
-  }
-  componentDidUpdate() {
-    const { legendPosition } = this.props;
-    const controlDots = document.querySelector('.control-dots');
-    if (legendPosition === 'legend-left') controlDots.classList.add('control-dots-left');
-    else controlDots.classList.remove('control-dots-left');
+  };
+
+  componentDidUpdate = () => {
+    const { autoplay } = this.props;
+    return autoplay ? this.slider.slickPlay() : this.slider.slickPause();
   }
 
   onImageChange = (imgPosition) => {
     const { position, rooms } = this.state;
-    if (position === 0) {
-      this.setState({ interval: 4000 });
-    } else if (position === 1) {
-      this.setState({ interval: 3000 });
-    }
-
     if (position < rooms.length) {
       this.setState({ position: imgPosition });
     } else {
@@ -52,28 +45,42 @@ class CustomCarousel extends Component {
     }
   }
 
+
   render() {
-    const { legendPosition, autoplay } = this.props;
-    const { rooms, position, interval } = this.state;
+    const { legendPosition } = this.props;
+    const { rooms, position } = this.state;
+    const settings = {
+      dots: true,
+      fade: true,
+      dotsClass: 'slick-dots',
+      pauseOnHover: false,
+      infinite: true,
+      pauseOnFocus: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 3000,
+      touchThreshold: 100,
+      slidesToShow: 1,
+      slidesToScroll: 3,
+      pauseOnDotsHover: true,
+      cssEase: 'ease-in',
+      appendDots: dots => (
+        <div id="adjust-dots">
+          <ul> {dots} </ul>
+        </div>
+      ),
+    };
     return (
-      <Carousel
-        autoPlay={autoplay}
-        infiniteLoop
-        stopOnHover={false}
-        showArrows={false}
-        showStatus={false}
-        interval={interval}
-        transitionTime={2000}
-        selectedItem={position}
-        onChange={imgPosition => this.onImageChange(imgPosition)}
-      >
-        {rooms.map(({ legend, img }) => (
-          <div key={legend}>
-            <p className={`legend ${legendPosition}`}>{legend}</p>
-            <img src={img} alt={legend} />
-          </div>
-        ))}
-      </Carousel>
+      <div className="carousel">
+        <Slider ref={(slider) => { this.slider = slider; }} className="slide" selectedItem={position} onChange={imgPosition => this.onImageChange(imgPosition)} {...settings}>
+          {rooms.map(({ legend, img }) => (
+            <div key={legend}>
+              <p className={`legend ${legendPosition}`}>{legend}</p>
+              <img src={img} alt={legend} />
+            </div>
+          ))}
+        </Slider>
+      </div>
     );
   }
 }
@@ -87,5 +94,6 @@ CustomCarousel.defaultProps = {
   legendPosition: 'center',
   autoplay: true,
 };
+
 
 export default CustomCarousel;

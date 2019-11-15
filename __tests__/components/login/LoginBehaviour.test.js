@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import { mount } from 'enzyme';
+import '../../matchMedia.test';
 import { Login } from '../../../src/components/login/Login';
 import { profileIcon } from '../../../src/utils/images/images';
 

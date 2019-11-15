@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Snackbar } from 'react-toolbox';
 import { withRouter } from 'react-router-dom';
 import '../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
-import Carousel from './Carousel';
+import CustomCarousel from './Carousel';
 
 import ROUTES from '../../utils/routes';
 import '../../assets/styles/login.scss';
@@ -149,7 +149,7 @@ export class Login extends Component {
             />}
           </div>
         </header>
-        <Carousel
+        <CustomCarousel
           legendPosition={openModal ? 'legend-left' : 'legend-center'}
           autoplay={slideAutoplay}
         />

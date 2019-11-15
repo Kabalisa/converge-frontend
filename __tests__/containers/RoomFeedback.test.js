@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import '../matchMedia.test';
 import AddQuestionComponent from '../../src/components/roomFeedback/AddQuestion';
 import RoomFeedbackPage from '../../src/containers/RoomFeedbackPage';
 import Button from '../../src/components/commons/Button';

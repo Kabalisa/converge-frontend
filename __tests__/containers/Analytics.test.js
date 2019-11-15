@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { MockedProvider } from '@apollo/react-testing';
 import { BrowserRouter } from 'react-router-dom';
+import '../matchMedia.test';
 import Analytics from '../../src/containers/Analytics';
 import { GET_LOCATION_QUERY } from '../../src/graphql/queries/People';
 import { getUserLocation } from '../../src/components/helpers/QueriesHelpers';
